@@ -1,5 +1,22 @@
 /* ---- Chromium Bug CSS ---- */
 
+/* Remove top banner (Credit: yoz@chromium.org) */
+.headbg, .gtb, #footer, .hostedBy {
+    display: none;
+}
+#issueheader {
+  margin: 0px !important;
+  padding: 5px !important;
+  border: 0px !important;
+  background: rgba(164, 201, 243, 1) !important;;
+}
+body.t3 {
+  margin: 0px !important;
+}
+#maincol {
+  padding: 0px !important;
+}
+
 /* Update fonts */
 body, input, textarea {
     font-family: "Roboto", "Gill Sans" !important;
@@ -8,4 +25,36 @@ body, input, textarea {
 pre, xmp, plaintext, listing {
     font-family: "Ubuntu Mono", "Monaco" !important;
     font-size: 10pt !important;
+}
+
+/* Update colors */
+/*a:link, a:focus {
+  color: rgba(90, 140, 214, 1) !important;
+}*/
+.subt {
+  background: rgba(90, 140, 214, 1) !important;
+  border: 0px !important;
+  color: #ffffff !important;
+}
+#issueheader td {
+  background: rgba(164, 201, 243, 1) !important;
+}
+.closed_colors #issueheader td {
+  background: #ddd !important;
+}
+#issuemeta {
+  padding-left: 3px !important;
+  border-right: 3px solid rgba(164, 201, 243, 1) !important;
+  border-bottom: 3px solid rgba(164, 201, 243, 1) !important;
+  background-color: rgba(246, 246, 245, 1) !important;
+}
+.issuecomment {
+  border-top: 3px solid rgba(164, 201, 243, 1) !important;
+}
+.updates {
+  background: rgba(246, 246, 245, 1) !important;
+}
+div.h4, table.h4 {
+  background-color: rgba(164, 201, 243, 1) !important;
+  border-top: 1px solid rgba(90, 140, 214, 1) !important;
 }
