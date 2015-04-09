@@ -24,5 +24,5 @@
    "description": "Style refresh for several Chromium development websites.",
    "manifest_version": 2,
    "name": "Chromium Dev Refresh",
-   "version": "0.0.3"
+   "version": "0.0.4"
 }
