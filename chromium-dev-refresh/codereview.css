@@ -23,7 +23,7 @@ body {
 }
 
 /* Layout */
-.mainmenu, .mainmenu2, .counter, .extra, .help, body > div:nth-child(3) > div, body > div:nth-child(11) {
+.mainmenu, .mainmenu2, .counter, div.extra, .help, body > div:nth-child(3) > div, body > div:nth-child(11) {
   display: none;
 }
 body > div:nth-child(3) {

@@ -22,7 +22,7 @@ body {
 .goog-button-base {
     font-family: "Roboto", "Gill Sans" !important;
 }
-span.stx-line, div.E-b {
+span.stx-line, div.E-b, .A-l>a {
     font-family: "Ubuntu Mono", "Monaco" !important;
     font-size: 10pt !important;
     line-height: 1.3em !important;
@@ -44,12 +44,12 @@ span.stx-line, div.E-b {
     /* Search box button */
     display: none !important;
 }
-.s-c {
-    /* Breadcrumb bar */
+.s-c, .v-c {
+    /* Breadcrumb bar / search results bar */
     background-color: rgba(164, 201, 243, 1) !important;
 }
-.A-m, .A-b {
-    /* XRefs headers */
+.A-m, .A-b, .W-a {
+    /* XRefs headers / search results breadcrumbs */
     background-color: rgba(246, 246, 245, 1) !important;
 }
 .A-m {
@@ -104,9 +104,9 @@ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(3) > div > div 
 }
 
 /* Adjust layout */
-body > div:nth-child(7) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(3) {
-    top: -1px !important;
+.b-a > div:nth-child(1) > div > div:nth-child(3), .b-a > div:nth-child(2) > div > div:nth-child(3) {
+    top: 28px !important;
 }
-body > div:nth-child(7) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) {
-    top: 27px !important;
+.b-a > div:nth-child(1) > div > div:nth-child(4), .b-a > div:nth-child(2) > div > div:nth-child(4) {
+    top: 56px !important;
 }
