@@ -1,0 +1,11 @@
+/* ---- Chromium Bug CSS ---- */
+
+/* Update fonts */
+body, input, textarea {
+    font-family: "Roboto", "Gill Sans" !important;
+}
+
+pre, xmp, plaintext, listing {
+    font-family: "Ubuntu Mono", "Monaco" !important;
+    font-size: 10pt !important;
+}

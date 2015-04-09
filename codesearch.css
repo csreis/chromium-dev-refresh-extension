@@ -1,0 +1,30 @@
+/* ---- Code Search CSS ---- */
+
+/* Remove top banner (Credit: yoz@chromium.org) */
+.headbg, .gtb {
+    display: none;
+}
+.sandbar {
+    height: 0px !important;
+}
+.a-a {
+    top: -132px !important;
+}
+.CVB {
+    margin-top: 0px !important;
+    background-color: #cacaca !important;
+}
+
+/* Update fonts */
+body {
+    font-family: "Roboto", "Gill Sans" !important;
+}
+.goog-button-base {
+    font-family: "Roboto", "Gill Sans" !important;
+}
+span.stx-line {
+    font-family: "Ubuntu Mono", "Monaco" !important;
+    font-size: 10pt !important;
+    line-height: 1.3em !important;
+}
+

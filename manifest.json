@@ -1,0 +1,28 @@
+{
+   "content_scripts": [ 
+     {
+       "matches": [ "*://code.google.com/p/chromium/codesearch*" ],
+       "js": [ "fonts.js" ],
+       "css": [ "codesearch.css" ]
+     },
+     {
+       "matches": [ "*://code.google.com/p/chromium/issues*" ],
+       "js": [ "fonts.js" ],
+       "css": [ "crbug.css" ]
+     },
+     {
+       "matches": [ "*://chromium.googlesource.com/*" ],
+       "js": [ "fonts.js" ],
+       "css": [ "gitblame.css" ]
+     },
+     {
+       "matches": [ "*://codereview.chromium.org/*" ],
+       "js": [ "fonts.js" ],
+       "css": [ "codereview.css" ]
+     }
+   ],
+   "description": "Style refresh for several Chromium development websites.",
+   "manifest_version": 2,
+   "name": "Chromium Dev Refresh",
+   "version": "0.0.1"
+}

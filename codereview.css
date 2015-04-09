@@ -1,0 +1,23 @@
+/* ---- Code Review CSS ---- */
+
+/* Update fonts */
+body {
+    font-family: "Roboto", "Gill Sans" !important;
+}
+
+#issue-description, div.inline-comment, pre, xmp, plaintext, listing {
+    font-family: "Ubuntu Mono", "Monaco" !important;
+    font-size: 10pt !important;
+}
+
+.olddark, .newdark, .oldreplace, .olddelete, .oldinsert, .oldequal, .oldblank,
+.oldlight, .newlight, .oldreplace1, .newreplace1,
+.newreplace, .newdelete, .newinsert, .newequal, .newblank,
+.oldmove, .oldchangemove, .oldchangemove1, .oldmove_out, .oldchangemove_out,
+.newmove, .newchangemove,
+.udiffadd, .udiffremove, .udiff, .debug-info {
+  white-space: pre;
+  font-family: "Ubuntu Mono", "Monaco" !important;
+  font-size: 10pt !important;
+  vertical-align: top;
+}
