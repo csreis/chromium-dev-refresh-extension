@@ -22,9 +22,87 @@ body {
 .goog-button-base {
     font-family: "Roboto", "Gill Sans" !important;
 }
-span.stx-line {
+span.stx-line, div.E-b {
     font-family: "Ubuntu Mono", "Monaco" !important;
     font-size: 10pt !important;
     line-height: 1.3em !important;
 }
 
+/* Update colors */
+.l-b {
+    /* Header */
+    background-color: rgba(90, 140, 214, 1) !important;
+    margin: 0px !important;
+}
+.Z-o {
+    /* Search box */
+    background-color: rgba(164, 201, 243, 1) !important;
+    color: #000000 !important;
+    border: 0px !important;
+}
+.button100 {
+    /* Search box button */
+    display: none !important;
+}
+.s-c {
+    /* Breadcrumb bar */
+    background-color: rgba(164, 201, 243, 1) !important;
+}
+.A-m, .A-b {
+    /* XRefs headers */
+    background-color: rgba(246, 246, 245, 1) !important;
+}
+.A-m {
+    border-top: 1px solid #rgba(164, 201, 243, 1) !important;
+    border-top: 1px solid #rgba(164, 201, 243, 1) !important;
+}
+.g-J {
+    /* Outer border */
+    border-color: rgba(164, 201, 243, 1) !important;
+}
+.g-jb {
+    /* Outer border margin */
+    margin: 0px !important;
+}
+.g-m, .gwt-TabLayoutPanelTabs-outer {
+    /* Filename bar */
+    background-color: rgba(246, 246, 245, 1) !important;
+}
+.g-z, .g-m {
+    /* Filename border */
+    border-bottom: solid 1px rgba(164, 201, 243, 1) !important;
+}
+.g-Ob {
+    /* Scroll gutter */
+    background: rgba(246, 246, 245, 1) !important;
+}
+.g-Ub, .g-hb {
+    /* Line highlight */
+    background-color: rgba(164, 201, 243, 1) !important;
+}
+.gwt-SplitLayoutPanel-VDragger, .gwt-SplitLayoutPanel-HDragger, body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(3) > div, body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(5) > div {
+    /* Dragger */
+    /* Uses more specific CSS path, since the Dragger classes use !important */
+    background-color: rgba(164, 201, 243, 1) !important;    
+}
+.p-c {
+    /* Home page background */
+    background-color: rgba(246, 246, 245, 1) !important;
+}
+.p-j {
+    /* Home page title font */
+    color: rgba(90, 140, 214, 1) !important;
+}
+body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.p-i > div > input {
+    /* Home page search box */
+    background-color: #ffffff !important;
+    border: 1px solid rgba(90, 140, 214, 1) !important;
+}
+
+/* Adjust layout */
+body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(3) {
+    top: 129px !important;
+}
+body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) {
+    top: 157px !important;
+}
