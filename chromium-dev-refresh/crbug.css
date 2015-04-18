@@ -8,7 +8,7 @@
   margin: 0px !important;
   padding: 5px !important;
   border: 0px !important;
-  background: rgba(164, 201, 243, 1) !important;;
+  background: rgba(164, 201, 243, 1) !important;
 }
 body.t3 {
   margin: 0px !important;
@@ -31,10 +31,16 @@ pre, xmp, plaintext, listing {
 /*a:link, a:focus {
   color: rgba(90, 140, 214, 1) !important;
 }*/
-.subt {
+.subt, .subt a:not(.buttonify) {
   background: rgba(90, 140, 214, 1) !important;
   border: 0px !important;
   color: #ffffff !important;
+}
+.subt input[type=submit] {
+  display: none;
+}
+a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
+  color: rgba(80, 130, 204, 1) !important;
 }
 #issueheader td {
   background: rgba(164, 201, 243, 1) !important;

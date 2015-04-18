@@ -22,20 +22,20 @@ body {
 .goog-button-base {
     font-family: "Roboto", "Gill Sans" !important;
 }
-span.stx-line, div.E-b, .A-l>a {
+span.stx-line, div.F-b, .X-q>pre>a {
     font-family: "Ubuntu Mono", "Monaco" !important;
     font-size: 10pt !important;
     line-height: 1.3em !important;
 }
 
 /* Update colors */
-.l-b {
-    /* Header */
+.m-d {
+    /* Header: Dark blue; */
     background-color: rgba(90, 140, 214, 1) !important;
     margin: 0px !important;
 }
-.Z-o {
-    /* Search box */
+.l-o {
+    /* Search box: Light blue; */
     background-color: rgba(164, 201, 243, 1) !important;
     color: #000000 !important;
     border: 0px !important;
@@ -44,23 +44,23 @@ span.stx-line, div.E-b, .A-l>a {
     /* Search box button */
     display: none !important;
 }
-.s-c, .v-c {
-    /* Breadcrumb bar / search results bar */
+.t-c, .w-c {
+    /* Breadcrumb bar / search results bar: Light blue; */
     background-color: rgba(164, 201, 243, 1) !important;
 }
-.A-m, .A-b, .W-a {
-    /* XRefs headers / search results breadcrumbs */
+.g-m, .B-b, .B-m, .X-a {
+    /* XRefs headers / search results breadcrumbs: Gray; */
     background-color: rgba(246, 246, 245, 1) !important;
 }
 .A-m {
     border-top: 1px solid #rgba(164, 201, 243, 1) !important;
     border-top: 1px solid #rgba(164, 201, 243, 1) !important;
 }
-.g-J {
+.x-i {
     /* Outer border */
     border-color: rgba(164, 201, 243, 1) !important;
 }
-.g-jb {
+.g-jb, .x-i, .w-c {
     /* Outer border margin */
     margin: 0px !important;
 }
@@ -97,7 +97,7 @@ span.stx-line, div.E-b, .A-l>a {
     /* Home page title font */
     color: rgba(90, 140, 214, 1) !important;
 }
-body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.p-i > div > input {
+body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.q-i > div > input {
     /* Home page search box */
     background-color: #ffffff !important;
     border: 1px solid rgba(90, 140, 214, 1) !important;
@@ -105,8 +105,8 @@ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(3) > div > div 
 
 /* Adjust layout */
 .b-a > div:nth-child(1) > div > div:nth-child(3), .b-a > div:nth-child(2) > div > div:nth-child(3) {
-    top: 28px !important;
+    top: 27px !important;
 }
 .b-a > div:nth-child(1) > div > div:nth-child(4), .b-a > div:nth-child(2) > div > div:nth-child(4) {
-    top: 56px !important;
+    top: 55px !important;
 }
