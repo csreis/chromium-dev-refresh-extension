@@ -40,6 +40,9 @@ span.stx-line, div.F-b, .X-q>pre>a {
     color: #000000 !important;
     border: 0px !important;
 }
+.l-o::selection {
+    background-color: #cacaca !important;
+}
 .button100 {
     /* Search box button */
     display: none !important;
