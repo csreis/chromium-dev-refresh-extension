@@ -31,16 +31,23 @@ pre, xmp, plaintext, listing {
 /*a:link, a:focus {
   color: rgba(90, 140, 214, 1) !important;
 }*/
-.subt, .subt a:not(.buttonify) {
+.subt, .subt a:not(.buttonify), a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
   background: rgba(90, 140, 214, 1) !important;
   border: 0px !important;
   color: #ffffff !important;
+}
+.subt input[type=text] {
+  border: 0px !important;
 }
 .subt input[type=submit] {
   display: none;
 }
 a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
   color: rgba(80, 130, 204, 1) !important;
+}
+.buttonify, .inIssueList #can {
+  background-color: rgba(246, 246, 245, 1) !important;
+  border: 1px solid #cacaca !important;
 }
 #issueheader td {
   background: rgba(164, 201, 243, 1) !important;
