@@ -22,7 +22,7 @@ body {
 /* Top menu */ .menu {
     width: 100% !important;
     margin: 0px !important;
-    padding: 5px !important;
+    padding: 3px !important;
     background-color: $darkBlue !important;
     color: white !important;
 }
@@ -34,7 +34,7 @@ body {
 }
 /* Filename breadcrumbs */ .breadcrumbs {
     position: absolute !important;
-    top: 30px !important;
+    top: 26px !important;
     left: 0px !important;
     margin-top: 0px !important;
     font-size: 12pt !important;
@@ -44,10 +44,10 @@ body {
 }
 /* File blob */ body > div.sha1 {
     position: absolute !important;
-    top: 60px !important;
+    top: 56px !important;
 }
 /* Main blame area */ #blame {
     position: absolute !important;
-    top: 75px !important;
+    top: 72px !important;
 }
 
