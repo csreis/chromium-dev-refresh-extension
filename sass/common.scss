@@ -1,0 +1,22 @@
+/* Common ----- */
+
+/* Colors */
+$darkBlue: rgba(90, 140, 214, 1);
+$lightBlue: rgba(164, 201, 243, 1);
+$lightGray: rgba(246, 246, 245, 1);
+$darkGray: #cacaca;
+
+@mixin codefont {
+    font-family: "Ubuntu Mono", "Monaco" !important;
+    font-size: 10pt !important;
+    line-height: 1.3em !important;  
+}
+
+/* Fonts */
+body, input, textarea,
+/* Button text */ .goog-button-base {
+    font-family: "Roboto", "Gill Sans", "Sans Serif" !important;
+}
+pre, xmp, plaintext, listing {
+  @include codefont;
+}

@@ -1,0 +1,127 @@
+/* ---- Code Search CSS ---- */
+
+@import "common.scss";
+
+/* Fonts ----- */
+
+/* Code */ span.stx-line,
+/* Search results? */ div.F-b,
+/* XRefs text */ .B-l>a,
+/* Xrefs text? stale? */ .X-q>pre>a {
+    @include codefont;
+}
+
+
+/* Layout ----- */
+
+/* Top banner */ .headbg,
+/* ? */ .gtb,
+/* Search box button */ .button100 {
+    display: none !important;
+}
+/* Whitespace in header */ .sandbar {
+    height: 0px !important;
+}
+/* ? */ .a-a {
+    top: -132px !important;
+}
+/* ? */ .CVB {
+    margin-top: 0px !important;
+    background-color: $darkGray !important;
+}
+/* Page border */ .g-J {
+    border: 0px !important;
+}
+/* Search bar */ .m-f {
+    /* TODO: Remove and change to 27, 55. */
+    padding-bottom: 1px;
+}
+/* Breadcrumb bar (Code page) */ .b-a > div:nth-child(1) > div > div:nth-child(3), 
+/* Breadcrumb bar (Search results page) */ .b-a > div:nth-child(2) > div > div:nth-child(3) {
+    top: 26px !important;
+}
+/* Main panel (Code page) */ .b-a > div:nth-child(1) > div > div:nth-child(4), 
+/* Main panel (Search results page) */ .b-a > div:nth-child(2) > div > div:nth-child(4) {
+    top: 54px !important;
+}
+/* Home page top bar */ .b-a {
+    margin-top: 0px !important;
+}
+
+
+/* Colors ----- */
+
+/* Header */ .m-d {
+    background-color: $darkBlue !important;
+    margin: 0px !important;
+}
+/* Search box */ .l-o {
+    background-color: $lightBlue !important;
+    color: #000000 !important;
+    border: 0px !important;
+}
+/* Breadcrumb bar */ .t-c, 
+/* Search results bar */ .w-c {
+    background-color: $lightBlue !important;
+}
+/* XRefs headers? */ .g-m, 
+.B-b,
+.B-m,
+/* Search results breadcrumbs? */ .X-a {
+    background-color: $lightGray !important;
+}
+/* Search results "Show N matches" */ .pb-d {
+    color: black !important;
+}
+/* ? */ .A-m {
+    border-top: 1px solid $lightBlue !important;
+    border-top: 1px solid $lightBlue !important;
+}
+/* Outer border */ .x-i {
+    border-color: $lightBlue !important;
+}
+/* Outer border margin ? */ .g-jb,  /* TODO: Remove? */
+.x-i,
+.w-c {
+    margin: 0px !important;
+}
+/* Filename bar */ .g-m,
+.gwt-TabLayoutPanelTabs-outer {
+    background-color: $lightGray !important;
+}
+/* Filename border */ .g-z, 
+/* Filename border? */ .g-m {
+    border-bottom: solid 1px $lightBlue !important;
+}
+/* Scroll gutter */ .g-Ob {
+    background: $lightGray !important;
+}
+/* Line highlight */ .g-Ub,
+.g-hb {
+    background-color: $lightBlue !important;
+}
+/* Search highlight */ ::selection {
+    background: $lightBlue - 5 !important;
+}
+/* Cross-reference highlight */ .g-H {
+    background-color: #fe9 !important;
+    border-radius: 10px !important;
+}
+/* Dragger */ .gwt-SplitLayoutPanel-VDragger,
+/* Dragger */ .gwt-SplitLayoutPanel-HDragger, 
+/* Dragger */ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(3) > div, 
+/* Dragger */ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(5) > div {
+    /* Uses more specific CSS path, since the Dragger classes use !important */
+    background-color: $lightBlue !important;    
+}
+/* Home page background */ .p-c {
+    background-color: $lightGray !important;
+}
+/* Home page title font */ .p-j {
+    color: $darkBlue !important;
+}
+/* Home page search box */ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.q-i > div > input {
+    background-color: #ffffff !important;
+    border: 1px solid $darkBlue !important;
+}
+

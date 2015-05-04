@@ -1,19 +1,28 @@
 /* ---- Git Blame CSS ---- */
+/* Common ----- */
+/* Colors */
+/* Fonts */
+body, input, textarea,
+.goog-button-base {
+  font-family: "Roboto", "Gill Sans", "Sans Serif" !important; }
 
-/* Remove top banner */
-html body h1 {
-    display: none !important;
-}
-.breadcrumbs {
-    margin-top: 0px !important;
-    font-size: 12pt !important;
-}
+pre, xmp, plaintext, listing {
+  font-family: "Ubuntu Mono", "Monaco" !important;
+  font-size: 10pt !important;
+  line-height: 1.3em !important; }
 
-/* Update fonts */
-body {
-    font-family: "Roboto", "Gill Sans" !important;
-}
+/* Fonts ----- */
+/* Code */
 .prettyprint {
-    font-family: "Ubuntu Mono", "Monaco" !important;
-    font-size: 9pt !important;
-}
+  font-family: "Ubuntu Mono", "Monaco" !important;
+  font-size: 9pt !important; }
+
+/* Layout ----- */
+/* Top banner */
+html body h1 {
+  display: none !important; }
+
+/* ? */
+.breadcrumbs {
+  margin-top: 0px !important;
+  font-size: 12pt !important; }

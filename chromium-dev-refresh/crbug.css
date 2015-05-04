@@ -1,73 +1,102 @@
 /* ---- Chromium Bug CSS ---- */
+/* Common ----- */
+/* Colors */
+/* Fonts */
+body, input, textarea,
+.goog-button-base {
+  font-family: "Roboto", "Gill Sans", "Sans Serif" !important; }
 
-/* Remove top banner (Credit: yoz@chromium.org) */
-.headbg, .gtb, #footer, .hostedBy {
-    display: none;
-}
+pre, xmp, plaintext, listing {
+  font-family: "Ubuntu Mono", "Monaco" !important;
+  font-size: 10pt !important;
+  line-height: 1.3em !important; }
+
+/* TODO: Fix label edit box colors */
+/* Layout ----- */
+/* Top banner */
+.headbg,
+.gtb,
+.subt input[type=submit],
+#footer,
+.hostedBy {
+  display: none !important; }
+
+/* Whitespace in header */
+.sandbar {
+  height: 0px !important; }
+
+/* Issue title */
 #issueheader {
   margin: 0px !important;
   padding: 5px !important;
   border: 0px !important;
-  background: rgba(164, 201, 243, 1) !important;
-}
+  background: #a4c9f3 !important; }
+
+/* ? */
 body.t3 {
-  margin: 0px !important;
-}
+  margin: 0px !important; }
+
+/* ? */
 #maincol {
-  padding: 0px !important;
-}
+  padding: 0px !important; }
 
-/* Update fonts */
-body, input, textarea {
-    font-family: "Roboto", "Gill Sans" !important;
-}
-
-pre, xmp, plaintext, listing {
-    font-family: "Ubuntu Mono", "Monaco" !important;
-    font-size: 10pt !important;
-}
-
-/* Update colors */
-/*a:link, a:focus {
-  color: rgba(90, 140, 214, 1) !important;
-}*/
-.subt, .subt a:not(.buttonify), a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
-  background: rgba(90, 140, 214, 1) !important;
+/* Colors ----- */
+/* Search bar */
+.subt {
+  background: #5a8cd6 !important;
   border: 0px !important;
-  color: #ffffff !important;
-}
+  color: white !important; }
+
+/* Search bar links */
+.subt a:link:not(.buttonify), .subt a:focus:not(.buttonify), .subt a:visited:not(.buttonify) {
+  color: #f6f6f5 !important; }
+
+/* Google Buttons */
+.buttonify,
+.inIssueList #can,
 .subt input[type=text] {
-  border: 0px !important;
-}
-.subt input[type=submit] {
-  display: none;
-}
+  background: #f6f6f5 !important;
+  border: 1px solid #cacaca !important; }
+
+/* Search box autocomplete */
+#ac-list {
+  color: #5a8cd6;
+  background-color: #f6f6f5; }
+
+/* Search box autocomplete selection */
+#ac-list .selected {
+  background-color: #a4c9f3; }
+
+/* Page links */
 a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
-  color: rgba(80, 130, 204, 1) !important;
-}
-.buttonify, .inIssueList #can {
-  background-color: rgba(246, 246, 245, 1) !important;
-  border: 1px solid #cacaca !important;
-}
+  /* TODO: $darkBlue - 10? */
+  color: #5082cc !important; }
+
+/* Issue title */
 #issueheader td {
-  background: rgba(164, 201, 243, 1) !important;
-}
+  background: #a4c9f3 !important; }
+
+/* Issue title for closed bugs */
 .closed_colors #issueheader td {
-  background: #ddd !important;
-}
+  /* TODO: $gray - 10? */
+  background: #ddd !important; }
+
+/* Sidebar */
 #issuemeta {
   padding-left: 3px !important;
-  border-right: 3px solid rgba(164, 201, 243, 1) !important;
-  border-bottom: 3px solid rgba(164, 201, 243, 1) !important;
-  background-color: rgba(246, 246, 245, 1) !important;
-}
+  border-right: 3px solid #a4c9f3 !important;
+  border-bottom: 3px solid #a4c9f3 !important;
+  background-color: #f6f6f5 !important; }
+
+/* Comment area header */
 .issuecomment {
-  border-top: 3px solid rgba(164, 201, 243, 1) !important;
-}
+  border-top: 3px solid #a4c9f3 !important; }
+
+/* ? */
 .updates {
-  background: rgba(246, 246, 245, 1) !important;
-}
+  background: #f6f6f5 !important; }
+
+/* ? */
 div.h4, table.h4 {
-  background-color: rgba(164, 201, 243, 1) !important;
-  border-top: 1px solid rgba(90, 140, 214, 1) !important;
-}
+  background-color: #a4c9f3 !important;
+  border-top: 1px solid #5a8cd6 !important; }
