@@ -9,13 +9,45 @@
     font-size: 9pt !important;
 }
 
-/* Layout ----- */
+/* Layout and colors ----- */
 
-/* Top banner */ html body h1 {
+body {
+    margin: 0px !important;
+}
+/* Top banner */ html body h1,
+/* Powered by Gitiles footer */ .footer {
     display: none !important;
 }
-/* ? */ .breadcrumbs {
+
+/* Top menu */ .menu {
+    width: 100% !important;
+    margin: 0px !important;
+    padding: 5px !important;
+    background-color: $darkBlue !important;
+    color: white !important;
+}
+/* Top menu links */ .menu a {
+    color: white !important;
+}
+/* Between top menu links */ .menu .entry {
+    border: 0px !important;
+}
+/* Filename breadcrumbs */ .breadcrumbs {
+    position: absolute !important;
+    top: 30px !important;
+    left: 0px !important;
     margin-top: 0px !important;
     font-size: 12pt !important;
+    width: 100% !important;
+    padding: 3px !important;
+    background-color: $lightBlue !important;
+}
+/* File blob */ body > div.sha1 {
+    position: absolute !important;
+    top: 60px !important;
+}
+/* Main blame area */ #blame {
+    position: absolute !important;
+    top: 75px !important;
 }
 
