@@ -69,8 +69,7 @@ body.t3 {
 
 /* Page links */
 a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
-  /* TODO: $darkBlue - 10? */
-  color: #5082cc !important; }
+  color: #4678c2 !important; }
 
 /* Issue title */
 #issueheader td {

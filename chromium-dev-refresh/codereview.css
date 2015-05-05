@@ -19,6 +19,14 @@ pre, xmp, plaintext, listing {
   font-size: 10pt !important;
   line-height: 1.3em !important; }
 
+/* CL description edit box */
+textarea#id_description {
+  font-family: "Ubuntu Mono", "Monaco" !important;
+  font-size: 10pt !important;
+  line-height: 1.3em !important;
+  /* ~= cols=80 */
+  width: 560px !important; }
+
 /* Code review area */
 /* TODO: Do the last 2 lines need to be in the font section? */
 .olddark, .newdark, .oldreplace, .olddelete, .oldinsert, .oldequal, .oldblank,

@@ -55,8 +55,7 @@
   background-color: $lightBlue;
 }
 /* Page links */ a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
-  /* TODO: $darkBlue - 10? */
-  color: rgba(80, 130, 204, 1) !important;
+  color: $darkBlue - 20 !important;
 }
 /* Issue title */ #issueheader td {
   background: $lightBlue !important;

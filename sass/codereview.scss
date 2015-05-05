@@ -8,7 +8,10 @@
 /* Comments in code */ #issue-description, div.inline-comment {
     @include codefont;
 }
-
+/* CL description edit box */ textarea#id_description {
+    @include codefont;
+    /* ~= cols=80 */ width: 560px !important;
+}
 /* Code review area */
 /* TODO: Do the last 2 lines need to be in the font section? */
 .olddark, .newdark, .oldreplace, .olddelete, .oldinsert, .oldequal, .oldblank,
