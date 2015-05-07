@@ -28,10 +28,12 @@
 
 /* Colors ----- */
 
-/* Search bar */ .subt {
+/* Search bar */ .subt,
+/* Issue List header text */ .issueList .inIssueList span {
   background: $darkBlue !important;
   border: 0px !important;
   color: white !important;
+  font-weight: normal !important;
 }
 /* Search bar links */ .subt a:link:not(.buttonify), .subt a:focus:not(.buttonify), .subt a:visited:not(.buttonify) {
   color: $lightGray !important;

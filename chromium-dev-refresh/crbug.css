@@ -40,10 +40,12 @@ body.t3 {
 
 /* Colors ----- */
 /* Search bar */
-.subt {
+.subt,
+.issueList .inIssueList span {
   background: #5a8cd6 !important;
   border: 0px !important;
-  color: white !important; }
+  color: white !important;
+  font-weight: normal !important; }
 
 /* Search bar links */
 .subt a:link:not(.buttonify), .subt a:focus:not(.buttonify), .subt a:visited:not(.buttonify) {
