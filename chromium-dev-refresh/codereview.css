@@ -47,14 +47,14 @@ body {
 /* Menu at top */
 .mainmenu,
 .counter,
-.mainmenu2 :not(:nth-child(3)),
+.mainmenu2 :not([href$="?closed=0"]),
 body > div:nth-child(3) > a:nth-last-child(2),
 body > div:nth-child(3) > a:nth-last-child(3),
 body > div:nth-child(8) > table > tbody > tr > td.meta > div.issue_details_sidebar > div:nth-child(9),
 body > div:nth-child(3) > div,
 div.extra,
 .help,
-body > div:nth-child(8) > div:nth-child(5),
+body > div:nth-child(8) > div:nth-of-type(2),
 body > div:nth-child(11),
 body > div:nth-child(8) > p,
 body > div:nth-child(10) {
@@ -66,13 +66,17 @@ body > div:nth-child(10) {
   margin: 0px !important;
   font-size: 0px !important; }
 
-/* Open Issues (when signed in) */
-body > div.mainmenu2 > a:nth-child(3) {
+/* Open Issues link */
+body > div.mainmenu2 > a[href$="?closed=0"] {
   color: white !important;
   position: absolute !important;
   font-size: 10pt !important;
   top: 5px !important;
   left: 5px !important; }
+
+/* Open Issues (when signed in) */
+body > div.mainmenu2 > a[href="/all?closed=0"]:after {
+  content: " Issues"; }
 
 /* Issues link decoration */
 body > div.mainmenu2 > a:not(:hover) {
@@ -92,7 +96,7 @@ body > div:nth-child(3) a:not(:hover) {
   text-decoration: none !important; }
 
 /* Issue title within review */
-body > div:nth-child(8) > div:nth-child(4) {
+body > div:nth-child(8) > div:nth-of-type(1) {
   width: 100% !important; }
 
 /* Issue header on issue list */
