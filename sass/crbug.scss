@@ -2,19 +2,15 @@
 
 @import "common.scss";
 
-/* TODO: Fix label edit box colors */
-
 /* Layout ----- */
 
 /* Top banner */ .headbg,
-/* ? */ .gtb,
+/* Top menu */ .gtb,
 /* Search button */ .subt input[type=submit],
+/* Issue list tip box */ .cuetip,
 /* Page footer */ #footer,
 /* Footer hosting label */ .hostedBy {
-    display: none !important;
-}
-/* Whitespace in header */ .sandbar {
-    height: 0px !important;
+  display: none !important;
 }
 
 /* Issue title */ #issueheader {
@@ -23,13 +19,12 @@
   border: 0px !important;
   background: $lightBlue !important;
 }
-/* ? */ body.t3 {
+/* Above issue title */ body.t3 {
   margin: 0px !important;
 }
-/* ? */ #maincol {
+/* Around main content area */ #maincol {
   padding: 0px !important;
 }
-
 
 /* Colors ----- */
 
@@ -41,28 +36,30 @@
 /* Search bar links */ .subt a:link:not(.buttonify), .subt a:focus:not(.buttonify), .subt a:visited:not(.buttonify) {
   color: $lightGray !important;
 }
-/* Google Buttons */ .buttonify, 
-/* Search menu */ .inIssueList #can,
+/* Google Buttons */ .buttonify,
+/* Submit buttons */ input[type=submit], input[type=button],
+/* Select menus */ select,
 /* Search box */ .subt input[type=text] {
   background: $lightGray !important;
   border: 1px solid $darkGray !important;
+  border-radius: 0px !important;
+  font-size: 9pt !important;
 }
 /* Search box autocomplete */ #ac-list {
-  color: $darkBlue;
-  background-color: $lightGray;
+  color: $darkBlue !important;
+  background-color: $lightGray !important;
 }
 /* Search box autocomplete selection */ #ac-list .selected {
-  background-color: $lightBlue;
+  background-color: $lightBlue !important;
 }
 /* Page links */ a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
   color: $darkBlue - 20 !important;
-}
+} 
 /* Issue title */ #issueheader td {
   background: $lightBlue !important;
 }
 /* Issue title for closed bugs */ .closed_colors #issueheader td {
-  /* TODO: $gray - 10? */
-  background: #ddd !important;
+  background: $lightGray - 20 !important;
 }
 /* Sidebar */ #issuemeta {
   padding-left: 3px !important;
@@ -73,10 +70,13 @@
 /* Comment area header */ .issuecomment {
   border-top: 3px solid $lightBlue !important;
 }
-/* ? */ .updates {
+/* Status updates in comments */ .updates {
   background: $lightGray !important;
-}
-/* ? */ div.h4, table.h4 {
+} 
+/* Add a comment header */ div.h4 {
   background-color: $lightBlue !important;
   border-top: 1px solid $darkBlue !important;
+}
+/* Issue list header */ .list {
+  background-color: $lightGray !important;
 }

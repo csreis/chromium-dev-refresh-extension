@@ -4,124 +4,108 @@
 
 /* Fonts ----- */
 
-/* Code */ span.stx-line,
-/* Search results? */ div.F-b,
-/* XRefs text */ .B-l>a,
-/* Xrefs text? stale? */ .X-q>pre>a {
-    @include codefont;
+/* Line numbers */ div.F-b,
+/* XRefs text */ .B-l>a {
+  @include codefont;
 }
-
 
 /* Layout ----- */
 
 /* Top banner */ .headbg,
-/* ? */ .gtb,
+/* Top menu */ .gtb,
 /* Search box button */ .button100 {
-    display: none !important;
+  display: none !important;
 }
 /* Whitespace in header */ .sandbar {
-    height: 0px !important;
+  height: 0px !important;
 }
-/* ? */ .a-a {
-    top: -132px !important;
+/* Content below header whitespace (stale?) */ .a-a {
+  top: -132px !important;
 }
-/* ? */ .CVB {
-    margin-top: 0px !important;
-    background-color: $darkGray !important;
+/* Page border (Code page) */ .g-J,
+/* Page border (Search results page) */ .x-i {
+  border: 0px !important;
 }
-/* Page border */ .g-J {
-    border: 0px !important;
-}
-/* Search bar */ .m-f {
-    /* TODO: Remove and change to 27, 55. */
-    padding-bottom: 1px;
-}
-/* Breadcrumb bar (Code page) */ .b-a > div:nth-child(1) > div > div:nth-child(3), 
+/* Breadcrumb bar (Code page) */ .b-a > div:nth-child(1) > div > div:nth-child(3),
 /* Breadcrumb bar (Search results page) */ .b-a > div:nth-child(2) > div > div:nth-child(3) {
-    top: 26px !important;
+  top: 26px !important;
 }
-/* Main panel (Code page) */ .b-a > div:nth-child(1) > div > div:nth-child(4), 
+/* Main panel (Code page) */ .b-a > div:nth-child(1) > div > div:nth-child(4),
 /* Main panel (Search results page) */ .b-a > div:nth-child(2) > div > div:nth-child(4) {
-    top: 54px !important;
+  top: 54px !important;
 }
-/* Home page top bar */ .b-a {
-    margin-top: 0px !important;
+/* Code page breadcrumb bar */ .b-a {
+  margin-top: 0px !important;
 }
-
 
 /* Colors ----- */
 
 /* Header */ .m-d {
-    background-color: $darkBlue !important;
-    margin: 0px !important;
+  background-color: $darkBlue !important;
+  margin: 0px !important;
 }
 /* Search box */ .l-o {
-    background-color: $lightBlue !important;
-    color: #000000 !important;
-    border: 0px !important;
+  background-color: $lightBlue !important;
+  color: black !important;
+  border: 0px !important;
 }
-/* Breadcrumb bar */ .t-c, 
+/* Breadcrumb bar */ .t-c,
 /* Search results bar */ .w-c {
-    background-color: $lightBlue !important;
+  background-color: $lightBlue !important;
 }
-/* XRefs headers? */ .g-m, 
-.B-b,
-.B-m,
-/* Search results breadcrumbs? */ .X-a {
-    background-color: $lightGray !important;
+/* XRefs subheaders */ .B-b,
+/* Search results breadcrumbs */ .X-a {
+  background-color: $lightGray !important;
+}
+/* XRefs top header */ .B-m {
+  background-color: $lightGray !important;
+  border-top: solid 1px $lightBlue !important;
+  border-bottom: solid 1px $lightBlue !important;
+}
+/* XRefs line numbers */ .B-i {
+  color: $darkGray !important;
 }
 /* Search results "Show N matches" */ .pb-d {
-    color: black !important;
+  color: black !important;
 }
-/* ? */ .A-m {
-    border-top: 1px solid $lightBlue !important;
-    border-top: 1px solid $lightBlue !important;
-}
-/* Outer border */ .x-i {
-    border-color: $lightBlue !important;
-}
-/* Outer border margin ? */ .g-jb,  /* TODO: Remove? */
-.x-i,
-.w-c {
-    margin: 0px !important;
+/* Outer border margin (Code page) */ .g-jb,
+/* Outer border margin (Search results page) */ .x-i, .w-c {
+  margin: 0px !important;
 }
 /* Filename bar */ .g-m,
-.gwt-TabLayoutPanelTabs-outer {
-    background-color: $lightGray !important;
-}
-/* Filename border */ .g-z, 
-/* Filename border? */ .g-m {
-    border-bottom: solid 1px $lightBlue !important;
+/* Navigation header */ .gwt-TabLayoutPanelTabs-outer {
+  background-color: $lightGray !important;
+  border-bottom: solid 1px $lightBlue !important;
 }
 /* Scroll gutter */ .g-Ob {
-    background: $lightGray !important;
+  background: $lightGray !important;
 }
 /* Line highlight */ .g-Ub,
-.g-hb {
-    background-color: $lightBlue !important;
+/* Navigation line highlight */ .g-hb {
+  background-color: $lightBlue !important;
 }
-/* Search highlight */ ::selection {
-    background: $lightBlue - 20 !important;
+/* Selection color */ ::selection {
+  background: $lightBlue - 20 !important;
 }
 /* Cross-reference highlight */ .g-H {
-    background-color: #fe9 !important;
-    border-radius: 10px !important;
+  background-color: #fe9 !important;
+  border-radius: 10px !important;
 }
-/* Dragger */ .gwt-SplitLayoutPanel-VDragger,
-/* Dragger */ .gwt-SplitLayoutPanel-HDragger, 
-/* Dragger */ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(3) > div, 
-/* Dragger */ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(5) > div {
-    /* Uses more specific CSS path, since the Dragger classes use !important */
-    background-color: $lightBlue !important;    
+/* VDragger */ .gwt-SplitLayoutPanel-VDragger,
+/* HDragger */ .gwt-SplitLayoutPanel-HDragger, 
+/* VDragger */ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(3) > div,
+/* HDragger */ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(5) > div {
+  /* Uses more specific CSS path, since the Dragger classes use !important */
+  background-color: $lightBlue !important;    
 }
 /* Home page background */ .p-c {
-    background-color: $lightGray !important;
+  background-color: $lightGray !important;
 }
-/* Home page title font */ .p-j {
-    color: $darkBlue !important;
+/* Home page title font */ .q-j {
+  color: $darkBlue !important;
 }
 /* Home page search box */ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.q-i > div > input {
-    background-color: #ffffff !important;
-    border: 1px solid $darkBlue !important;
+  background-color: white !important;
+  border: 1px solid $lightBlue !important;
 }
 

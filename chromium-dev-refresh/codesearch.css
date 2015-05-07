@@ -2,21 +2,21 @@
 /* Common ----- */
 /* Colors */
 /* Fonts */
+/* Default fonts */
 body, input, textarea,
 .goog-button-base {
   font-family: "Roboto", "Gill Sans", "Sans Serif" !important; }
 
+/* Monospaced fonts */
 pre, xmp, plaintext, listing {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important;
   line-height: 1.3em !important; }
 
 /* Fonts ----- */
-/* Code */
-span.stx-line,
+/* Line numbers */
 div.F-b,
-.B-l > a,
-.X-q > pre > a {
+.B-l > a {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important;
   line-height: 1.3em !important; }
@@ -32,23 +32,14 @@ div.F-b,
 .sandbar {
   height: 0px !important; }
 
-/* ? */
+/* Content below header whitespace (stale?) */
 .a-a {
   top: -132px !important; }
 
-/* ? */
-.CVB {
-  margin-top: 0px !important;
-  background-color: #cacaca !important; }
-
-/* Page border */
-.g-J {
+/* Page border (Code page) */
+.g-J,
+.x-i {
   border: 0px !important; }
-
-/* Search bar */
-.m-f {
-  /* TODO: Remove and change to 27, 55. */
-  padding-bottom: 1px; }
 
 /* Breadcrumb bar (Code page) */
 .b-a > div:nth-child(1) > div > div:nth-child(3),
@@ -60,7 +51,7 @@ div.F-b,
 .b-a > div:nth-child(2) > div > div:nth-child(4) {
   top: 54px !important; }
 
-/* Home page top bar */
+/* Code page breadcrumb bar */
 .b-a {
   margin-top: 0px !important; }
 
@@ -73,7 +64,7 @@ div.F-b,
 /* Search box */
 .l-o {
   background-color: #a4c9f3 !important;
-  color: #000000 !important;
+  color: black !important;
   border: 0px !important; }
 
 /* Breadcrumb bar */
@@ -81,40 +72,34 @@ div.F-b,
 .w-c {
   background-color: #a4c9f3 !important; }
 
-/* XRefs headers? */
-.g-m,
+/* XRefs subheaders */
 .B-b,
-.B-m,
 .X-a {
   background-color: #f6f6f5 !important; }
+
+/* XRefs top header */
+.B-m {
+  background-color: #f6f6f5 !important;
+  border-top: solid 1px #a4c9f3 !important;
+  border-bottom: solid 1px #a4c9f3 !important; }
+
+/* XRefs line numbers */
+.B-i {
+  color: #cacaca !important; }
 
 /* Search results "Show N matches" */
 .pb-d {
   color: black !important; }
 
-/* ? */
-.A-m {
-  border-top: 1px solid #a4c9f3 !important;
-  border-top: 1px solid #a4c9f3 !important; }
-
-/* Outer border */
-.x-i {
-  border-color: #a4c9f3 !important; }
-
-/* Outer border margin ? */
+/* Outer border margin (Code page) */
 .g-jb,
-.x-i,
-.w-c {
+.x-i, .w-c {
   margin: 0px !important; }
 
 /* Filename bar */
 .g-m,
 .gwt-TabLayoutPanelTabs-outer {
-  background-color: #f6f6f5 !important; }
-
-/* Filename border */
-.g-z,
-.g-m {
+  background-color: #f6f6f5 !important;
   border-bottom: solid 1px #a4c9f3 !important; }
 
 /* Scroll gutter */
@@ -126,7 +111,7 @@ div.F-b,
 .g-hb {
   background-color: #a4c9f3 !important; }
 
-/* Search highlight */
+/* Selection color */
 ::selection {
   background: #90b5df !important; }
 
@@ -135,7 +120,7 @@ div.F-b,
   background-color: #fe9 !important;
   border-radius: 10px !important; }
 
-/* Dragger */
+/* VDragger */
 .gwt-SplitLayoutPanel-VDragger,
 .gwt-SplitLayoutPanel-HDragger,
 body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(3) > div,
@@ -148,10 +133,10 @@ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:
   background-color: #f6f6f5 !important; }
 
 /* Home page title font */
-.p-j {
+.q-j {
   color: #5a8cd6 !important; }
 
 /* Home page search box */
 body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.q-i > div > input {
-  background-color: #ffffff !important;
-  border: 1px solid #5a8cd6 !important; }
+  background-color: white !important;
+  border: 1px solid #a4c9f3 !important; }

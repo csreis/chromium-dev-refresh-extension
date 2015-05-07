@@ -5,49 +5,45 @@
 /* Fonts ----- */
 
 /* Code */ .prettyprint {
-    font-family: "Ubuntu Mono", "Monaco" !important;
-    font-size: 9pt !important;
+  font-family: "Ubuntu Mono", "Monaco" !important;
+  font-size: 9pt !important;
 }
 
 /* Layout and colors ----- */
 
-body {
-    margin: 0px !important;
-}
 /* Top banner */ html body h1,
 /* Powered by Gitiles footer */ .footer {
-    display: none !important;
+  display: none !important;
 }
-
 /* Top menu */ .menu {
-    width: 100% !important;
-    margin: 0px !important;
-    padding: 3px !important;
-    background-color: $darkBlue !important;
-    color: white !important;
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 3px !important;
+  background-color: $darkBlue !important;
+  color: white !important;
 }
 /* Top menu links */ .menu a {
-    color: white !important;
+  color: white !important;
 }
 /* Between top menu links */ .menu .entry {
-    border: 0px !important;
+  border: 0px !important;
 }
 /* Filename breadcrumbs */ .breadcrumbs {
-    position: absolute !important;
-    top: 26px !important;
-    left: 0px !important;
-    margin-top: 0px !important;
-    font-size: 12pt !important;
-    width: 100% !important;
-    padding: 3px !important;
-    background-color: $lightBlue !important;
+  position: absolute !important;
+  top: 26px !important;
+  left: 0px !important;
+  margin-top: 0px !important;
+  font-size: 12pt !important;
+  width: 100% !important;
+  padding: 3px !important;
+  background-color: $lightBlue !important;
 }
 /* File blob */ body > div.sha1 {
-    position: absolute !important;
-    top: 56px !important;
+  position: absolute !important;
+  top: 56px !important;
 }
 /* Main blame area */ #blame {
-    position: absolute !important;
-    top: 72px !important;
+  position: absolute !important;
+  top: 72px !important;
 }
 

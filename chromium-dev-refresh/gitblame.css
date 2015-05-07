@@ -2,10 +2,12 @@
 /* Common ----- */
 /* Colors */
 /* Fonts */
+/* Default fonts */
 body, input, textarea,
 .goog-button-base {
   font-family: "Roboto", "Gill Sans", "Sans Serif" !important; }
 
+/* Monospaced fonts */
 pre, xmp, plaintext, listing {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important;
@@ -18,9 +20,6 @@ pre, xmp, plaintext, listing {
   font-size: 9pt !important; }
 
 /* Layout and colors ----- */
-body {
-  margin: 0px !important; }
-
 /* Top banner */
 html body h1,
 .footer {

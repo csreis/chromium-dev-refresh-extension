@@ -5,46 +5,47 @@
 /* Fonts ----- */
 
 /* CL Description */ #issue-description,
-/* Comments in code */ #issue-description, div.inline-comment {
-    @include codefont;
+/* Comments in code */ div.inline-comment {
+  @include codefont;
 }
 /* CL description edit box */ textarea#id_description {
-    @include codefont;
-    /* ~= cols=80 */ width: 560px !important;
+  @include codefont;
+  /* ~= cols=80 */ width: 560px !important;
 }
 /* Code review area */
-/* TODO: Do the last 2 lines need to be in the font section? */
 .olddark, .newdark, .oldreplace, .olddelete, .oldinsert, .oldequal, .oldblank,
 .oldlight, .newlight, .oldreplace1, .newreplace1,
 .newreplace, .newdelete, .newinsert, .newequal, .newblank,
 .oldmove, .oldchangemove, .oldchangemove1, .oldmove_out, .oldchangemove_out,
 .newmove, .newchangemove,
 .udiffadd, .udiffremove, .udiff, .debug-info {
-    @include codefont;
-    white-space: pre;
-    vertical-align: top;
+  @include codefont;
 }
 
 /* Layout ----- */
 
 body {
   margin: 0px;
+} 
+/* Menu at top */ .mainmenu,
+/* Counter under signin */ .counter,
+/* Issue links (except open issues) */ .mainmenu2 :not(:nth-child(3)),
+/* Chromium Project link */ body > div:nth-child(3) > a:nth-last-child(2),
+/* Help link */ body > div:nth-child(3) > a:nth-last-child(3),
+/* More Reviews link */ body > div:nth-child(8) > table > tbody > tr > td.meta > div.issue_details_sidebar > div:nth-child(9),
+/* Title */ body > div:nth-child(3) > div,
+/* Footer */  div.extra,
+/* Help text within review */ .help,
+/* Advanced review settings box */ body > div:nth-child(8) > div:nth-child(5),
+/* Powered by AppEngine */ body > div:nth-child(11),
+/* Issue header gap on issue list */ body > div:nth-child(8) > p,
+/* Issue list AppEngine footer */ body > div:nth-child(10) {
+  display: none !important;
 }
-/* Menu at top */ .mainmenu, /* .mainmenu2, */
-/* ? */ .counter,
-/* ? */ div.extra,
-/* ? */ .help,
-/* ? */ body > div:nth-child(3) > div,
-/* ? */ body > div:nth-child(11) {
-  display: none;
-}
-.mainmenu2 {
-    height: 0px !important;
-    margin: 0px !important;
-    font-size: 0px !important;
-}
-.mainmenu2 :not(:nth-child(3)) {
-    display: none;
+/* Issue links text */ .mainmenu2 {
+  height: 0px !important;
+  margin: 0px !important;
+  font-size: 0px !important;
 }
 /* Open Issues (when signed in) */ body > div.mainmenu2 > a:nth-child(3) {
   color: white !important;
@@ -53,29 +54,18 @@ body {
   top: 5px !important;
   left: 5px !important;
 }
-body > div.mainmenu2 > a:not(:hover) {
+/* Issues link decoration */ body > div.mainmenu2 > a:not(:hover) {
   text-decoration: none !important;
 }
-/* Issue title */ body > div:nth-child(8) > div:nth-child(2) {
-  width: 100% !important;
-}
-/* Sign-in link */ body > div:nth-child(3) {
-    float: right !important;
-    font-size: 0pt !important;
+/* Sign-in link text */ body > div:nth-child(3) {
+  float: right !important;
+  font-size: 0pt !important;
 }
 /* Sign-in link */ body > div:nth-child(3) b, body > div:nth-child(3) a {
-    font-size: 10pt !important;
+  font-size: 10pt !important;
 }
-/* Sign-in link */ body > div:nth-child(3) a:not(:hover) {
+/* Sign-in link decoration */ body > div:nth-child(3) a:not(:hover) {
   text-decoration: none !important;
-}
-/* Chromium Project link */ body > div:nth-child(3) > a:nth-last-child(2),
-/* Help link */ body > div:nth-child(3) > a:nth-last-child(3) {
-    display: none !important;
-}
-
-/* More Reviews link */ body > div:nth-child(8) > table > tbody > tr > td.meta > div.issue_details_sidebar > div:nth-child(9) {
-  display: none !important;
 }
 /* Issue title within review */ body > div:nth-child(8) > div:nth-child(4) {
   width: 100% !important;
@@ -83,34 +73,26 @@ body > div.mainmenu2 > a:not(:hover) {
 /* Issue header on issue list */ body > div:nth-child(8) > h2 {
   display: block !important;
 }
-/* Issue header gap on issue list */ body > div:nth-child(8) > p {
-  display: none !important;
-}
-/* Issue list footer */ body > div:nth-child(10) {
-  display: none !important;
-}
-/* Advanced review settings box */ body > div:nth-child(8) > div:nth-child(5) {
-  display: none !important;
-}
 
 /* Colors ----- */
 
-/* Issue title */ h2 {
-    background: $lightBlue !important;
-    width: 100% !important;
-    margin: 0px !important;
-    padding: 7px !important;
-}
 /* Header */ body > div:nth-child(3),
-body > div:nth-child(3) a {
-    background: $darkBlue !important;
-    width: 100% !important;
-    margin: 0px !important;
-    padding: 5px !important;
-    color: white !important;
+/* Header links */ body > div:nth-child(3) a {
+  background: $darkBlue !important;
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 5px !important;
+  color: white !important;
 }
-/* Sidebar table */ .issue-details {
-    border-spacing: 0px !important;
+/* Issue title */ h2 {
+  background: $lightBlue !important;
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 7px !important;
+  font-size: 14pt !important;
+}
+/* Sidebar table border */ .issue-details {
+  border-spacing: 0px !important;
 }
 /* Sidebar */ .issue-details .meta {
   background-color: $lightGray !important;

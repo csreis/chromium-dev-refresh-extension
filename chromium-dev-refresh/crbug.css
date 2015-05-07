@@ -2,28 +2,26 @@
 /* Common ----- */
 /* Colors */
 /* Fonts */
+/* Default fonts */
 body, input, textarea,
 .goog-button-base {
   font-family: "Roboto", "Gill Sans", "Sans Serif" !important; }
 
+/* Monospaced fonts */
 pre, xmp, plaintext, listing {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important;
   line-height: 1.3em !important; }
 
-/* TODO: Fix label edit box colors */
 /* Layout ----- */
 /* Top banner */
 .headbg,
 .gtb,
 .subt input[type=submit],
+.cuetip,
 #footer,
 .hostedBy {
   display: none !important; }
-
-/* Whitespace in header */
-.sandbar {
-  height: 0px !important; }
 
 /* Issue title */
 #issueheader {
@@ -32,11 +30,11 @@ pre, xmp, plaintext, listing {
   border: 0px !important;
   background: #a4c9f3 !important; }
 
-/* ? */
+/* Above issue title */
 body.t3 {
   margin: 0px !important; }
 
-/* ? */
+/* Around main content area */
 #maincol {
   padding: 0px !important; }
 
@@ -53,19 +51,22 @@ body.t3 {
 
 /* Google Buttons */
 .buttonify,
-.inIssueList #can,
+input[type=submit], input[type=button],
+select,
 .subt input[type=text] {
   background: #f6f6f5 !important;
-  border: 1px solid #cacaca !important; }
+  border: 1px solid #cacaca !important;
+  border-radius: 0px !important;
+  font-size: 9pt !important; }
 
 /* Search box autocomplete */
 #ac-list {
-  color: #5a8cd6;
-  background-color: #f6f6f5; }
+  color: #5a8cd6 !important;
+  background-color: #f6f6f5 !important; }
 
 /* Search box autocomplete selection */
 #ac-list .selected {
-  background-color: #a4c9f3; }
+  background-color: #a4c9f3 !important; }
 
 /* Page links */
 a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
@@ -77,8 +78,7 @@ a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
 
 /* Issue title for closed bugs */
 .closed_colors #issueheader td {
-  /* TODO: $gray - 10? */
-  background: #ddd !important; }
+  background: #e2e2e1 !important; }
 
 /* Sidebar */
 #issuemeta {
@@ -91,11 +91,15 @@ a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
 .issuecomment {
   border-top: 3px solid #a4c9f3 !important; }
 
-/* ? */
+/* Status updates in comments */
 .updates {
   background: #f6f6f5 !important; }
 
-/* ? */
-div.h4, table.h4 {
+/* Add a comment header */
+div.h4 {
   background-color: #a4c9f3 !important;
   border-top: 1px solid #5a8cd6 !important; }
+
+/* Issue list header */
+.list {
+  background-color: #f6f6f5 !important; }
