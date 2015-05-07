@@ -13,7 +13,8 @@
 
 /* Top banner */ .headbg,
 /* Top menu */ .gtb,
-/* Search box button */ .button100 {
+/* Search box button */ .button100,
+/* Button gradient */ .goog-button-base-top-shadow {
   display: none !important;
 }
 /* Whitespace in header */ .sandbar {
@@ -52,6 +53,9 @@
 /* Breadcrumb bar */ .t-c,
 /* Search results bar */ .w-c {
   background-color: $lightBlue !important;
+}
+/* Button background */ .goog-button-base-inner-box {
+  background: $lightGray !important;
 }
 /* XRefs subheaders */ .B-b,
 /* Search results breadcrumbs */ .X-a {
