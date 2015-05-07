@@ -13,6 +13,25 @@ pre, xmp, plaintext, listing {
   font-size: 10pt !important;
   line-height: 1.3em !important; }
 
+/* Buttons */
+/* Submit buttons */
+input[type=submit], input[type=reset], input[type=button],
+select {
+  background: #f6f6f5 !important;
+  border: 1px solid #cacaca !important;
+  border-radius: 0px !important;
+  font-size: 9pt !important; }
+
+/* Submit buttons (hover) */
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover,
+select:hover {
+  background: white !important; }
+
+/* Submit buttons (focus) */
+input[type=submit]:focus, input[type=reset]:focus, input[type=button]:focus,
+select:focus {
+  background: #e2e2e1 !important; }
+
 /* Fonts ----- */
 /* Code */
 .prettyprint {

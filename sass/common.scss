@@ -12,6 +12,13 @@ $darkGray: #cacaca;
   line-height: 1.3em !important;  
 }
 
+@mixin buttonstyle {
+  background: $lightGray !important;
+  border: 1px solid $darkGray !important;
+  border-radius: 0px !important;
+  font-size: 9pt !important;
+}
+
 /* Fonts */
 /* Default fonts */ body, input, textarea,
 /* Button text */ .goog-button-base {
@@ -19,4 +26,18 @@ $darkGray: #cacaca;
 }
 /* Monospaced fonts */ pre, xmp, plaintext, listing {
   @include codefont;
+}
+
+/* Buttons */
+/* Submit buttons */ input[type=submit], input[type=reset], input[type=button],
+/* Select menus */ select {
+  @include buttonstyle;
+}
+/* Submit buttons (hover) */ input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover,
+/* Select menus (hover) */ select:hover {
+  background: $lightGray + 20 !important;
+}
+/* Submit buttons (focus) */ input[type=submit]:focus, input[type=reset]:focus, input[type=button]:focus,
+/* Select menus (focus) */ select:focus {
+  background: $lightGray - 20 !important;
 }

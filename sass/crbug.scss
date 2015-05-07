@@ -39,13 +39,14 @@
   color: $lightGray !important;
 }
 /* Google Buttons */ .buttonify,
-/* Submit buttons */ input[type=submit], input[type=button],
-/* Select menus */ select,
 /* Search box */ .subt input[type=text] {
-  background: $lightGray !important;
-  border: 1px solid $darkGray !important;
-  border-radius: 0px !important;
-  font-size: 9pt !important;
+  @include buttonstyle;
+}
+/* Google Buttons (hover) */ .buttonify:hover {
+  background: $lightGray + 20 !important;
+}
+/* Google Buttons (focus) */ .buttonify:focus {
+  background: $lightGray - 20 !important;
 }
 /* Search box autocomplete */ #ac-list {
   color: $darkBlue !important;
