@@ -20,7 +20,8 @@ select {
   background: #f6f6f5 !important;
   border: 1px solid #cacaca !important;
   border-radius: 0px !important;
-  font-size: 9pt !important; }
+  font-size: 9pt !important;
+  margin: 1px !important; }
 
 /* Submit buttons (hover) */
 input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover,
@@ -33,8 +34,9 @@ select:focus {
   background: #e2e2e1 !important; }
 
 /* Layout ----- */
-/* Top banner */
-.headbg,
+/* Top banner (minus signin links) */
+.headbg div:not(#gaia), .headbg table,
+#projects-dropdown,
 .gtb,
 .subt input[type=submit],
 .cuetip,
@@ -57,7 +59,30 @@ body.t3 {
 #maincol {
   padding: 0px !important; }
 
+/* Around issue list  #colcontrol {
+  padding: 0px 5px 5px 5px !important;
+} */
 /* Colors ----- */
+/* Sign in */
+#gaia {
+  color: white !important;
+  position: relative !important;
+  float: right !important;
+  z-index: 1 !important;
+  padding: 9px !important;
+  margin: 0px !important;
+  font-size: 0pt !important; }
+
+/* Sign in links */
+#gaia a {
+  color: white !important;
+  font-size: 10pt !important;
+  padding-left: 5px !important; }
+
+/* Sign in link decoration */
+#gaia a:not(:hover) u {
+  text-decoration: none !important; }
+
 /* Search bar */
 .subt,
 .issueList .inIssueList span {
@@ -65,6 +90,15 @@ body.t3 {
   border: 0px !important;
   color: white !important;
   font-weight: normal !important; }
+
+/* Search bar */
+.subt {
+  position: absolute !important;
+  top: 0px !important;
+  width: 100% !important;
+  padding: 7px 7px 7px 14px !important;
+  height: 21px !important;
+  font-size: 10pt !important; }
 
 /* Search bar links */
 .subt a:link:not(.buttonify), .subt a:focus:not(.buttonify), .subt a:visited:not(.buttonify) {
@@ -76,7 +110,8 @@ body.t3 {
   background: #f6f6f5 !important;
   border: 1px solid #cacaca !important;
   border-radius: 0px !important;
-  font-size: 9pt !important; }
+  font-size: 9pt !important;
+  margin: 1px !important; }
 
 /* Google Buttons (hover) */
 .buttonify:hover {

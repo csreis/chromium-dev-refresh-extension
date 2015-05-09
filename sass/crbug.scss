@@ -4,7 +4,8 @@
 
 /* Layout ----- */
 
-/* Top banner */ .headbg,
+/* Top banner (minus signin links) */ .headbg div:not(#gaia), .headbg table,
+/* Favorites link */ #projects-dropdown,
 /* Top menu */ .gtb,
 /* Search button */ .subt input[type=submit],
 /* Issue list tip box */ .cuetip,
@@ -28,12 +29,37 @@
 
 /* Colors ----- */
 
+/* Sign in */ #gaia {
+  color: white !important;
+  position: relative !important;
+  float: right !important;
+  z-index: 1 !important;
+  padding: 9px !important;
+  margin: 0px !important;
+  font-size: 0pt !important;
+}
+/* Sign in links */ #gaia a {
+  color: white !important;
+  font-size: 10pt !important;
+  padding-left: 5px !important;
+}
+/* Sign in link decoration */ #gaia a:not(:hover) u {
+  text-decoration: none !important;
+}
 /* Search bar */ .subt,
 /* Issue List header text */ .issueList .inIssueList span {
   background: $darkBlue !important;
   border: 0px !important;
   color: white !important;
   font-weight: normal !important;
+}
+/* Search bar */ .subt {
+  position: absolute !important;
+  top: 0px !important;
+  width: 100% !important;
+  padding: 7px 7px 7px 14px !important;
+  height: 21px !important;
+  font-size: 10pt !important;
 }
 /* Search bar links */ .subt a:link:not(.buttonify), .subt a:focus:not(.buttonify), .subt a:visited:not(.buttonify) {
   color: $lightGray !important;
