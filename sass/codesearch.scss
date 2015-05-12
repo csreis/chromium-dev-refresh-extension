@@ -4,9 +4,14 @@
 
 /* Fonts ----- */
 
+/* Monospaced fonts */ pre, xmp, plaintext, listing {
+  line-height: 1.3em !important;
+}
+
 /* Line numbers */ div.F-b,
 /* XRefs text */ .B-l>a {
   @include codefont;
+  line-height: 1.3em !important;
 }
 
 /* Layout ----- */

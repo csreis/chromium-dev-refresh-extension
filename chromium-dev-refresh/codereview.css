@@ -10,12 +10,11 @@ body, input, textarea,
 /* Monospaced fonts */
 pre, xmp, plaintext, listing {
   font-family: "Ubuntu Mono", "Monaco" !important;
-  font-size: 10pt !important;
-  line-height: 1.3em !important; }
+  font-size: 10pt !important; }
 
 /* Buttons */
 /* Submit buttons */
-input[type=submit], input[type=reset], input[type=button],
+input[type=submit], input[type=reset], input[type=button], button,
 select {
   background: #f6f6f5 !important;
   border: 1px solid #cacaca !important;
@@ -36,16 +35,16 @@ select:focus {
 /* Fonts ----- */
 /* CL Description */
 #issue-description,
-div.inline-comment {
+div.inline-comment,
+table#thecode textarea,
+textarea#id_message {
   font-family: "Ubuntu Mono", "Monaco" !important;
-  font-size: 10pt !important;
-  line-height: 1.3em !important; }
+  font-size: 10pt !important; }
 
 /* CL description edit box */
 textarea#id_description {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important;
-  line-height: 1.3em !important;
   /* ~= cols=80 */
   width: 560px !important; }
 
@@ -57,8 +56,7 @@ textarea#id_description {
 .newmove, .newchangemove,
 .udiffadd, .udiffremove, .udiff, .debug-info {
   font-family: "Ubuntu Mono", "Monaco" !important;
-  font-size: 10pt !important;
-  line-height: 1.3em !important; }
+  font-size: 10pt !important; }
 
 /* Layout ----- */
 body {
@@ -74,7 +72,6 @@ body > div:nth-child(8) > table > tbody > tr > td.meta > div.issue_details_sideb
 body > div:nth-child(3) > div,
 div.extra,
 .help,
-body > div:nth-child(8) > div:nth-of-type(2),
 body > div:nth-child(11),
 body > div:nth-child(8) > p,
 body > div:nth-child(10) {
@@ -146,6 +143,11 @@ h2 {
   background-color: #f6f6f5 !important;
   border-right: 2px solid #a4c9f3 !important;
   border-bottom: 2px solid #a4c9f3 !important; }
+
+/* Publish header */
+.issue-details h2,
+.description {
+  background-color: #f6f6f5 !important; }
 
 /* List of issues */
 .issue-list {

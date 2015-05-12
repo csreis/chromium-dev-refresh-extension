@@ -5,7 +5,9 @@
 /* Fonts ----- */
 
 /* CL Description */ #issue-description,
-/* Comments in code */ div.inline-comment {
+/* Comments in code */ div.inline-comment,
+/* Comment drafts in code */ table#thecode textarea,
+/* Publish message */ textarea#id_message {
   @include codefont;
 }
 /* CL description edit box */ textarea#id_description {
@@ -36,7 +38,6 @@ body {
 /* Title */ body > div:nth-child(3) > div,
 /* Footer */  div.extra,
 /* Help text within review */ .help,
-/* Advanced review settings box */ body > div:nth-child(8) > div:nth-of-type(2),
 /* Powered by AppEngine */ body > div:nth-child(11),
 /* Issue header gap on issue list */ body > div:nth-child(8) > p,
 /* Issue list AppEngine footer */ body > div:nth-child(10) {
@@ -98,6 +99,10 @@ body {
   background-color: $lightGray !important;
   border-right: 2px solid $lightBlue !important;
   border-bottom: 2px solid $lightBlue !important;
+}
+/* Publish header */ .issue-details h2,
+/* Draft comments */ .description {
+  background-color: $lightGray !important;
 }
 /* List of issues */ .issue-list {
   background-color: $lightGray !important;

@@ -9,7 +9,6 @@ $darkGray: #cacaca;
 @mixin codefont {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important;
-  line-height: 1.3em !important;  
 }
 
 @mixin buttonstyle {
@@ -30,7 +29,7 @@ $darkGray: #cacaca;
 }
 
 /* Buttons */
-/* Submit buttons */ input[type=submit], input[type=reset], input[type=button],
+/* Submit buttons */ input[type=submit], input[type=reset], input[type=button], button,
 /* Select menus */ select {
   @include buttonstyle;
 }

@@ -10,12 +10,11 @@ body, input, textarea,
 /* Monospaced fonts */
 pre, xmp, plaintext, listing {
   font-family: "Ubuntu Mono", "Monaco" !important;
-  font-size: 10pt !important;
-  line-height: 1.3em !important; }
+  font-size: 10pt !important; }
 
 /* Buttons */
 /* Submit buttons */
-input[type=submit], input[type=reset], input[type=button],
+input[type=submit], input[type=reset], input[type=button], button,
 select {
   background: #f6f6f5 !important;
   border: 1px solid #cacaca !important;
