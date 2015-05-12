@@ -90,6 +90,9 @@
 /* Issue title for closed bugs */ .closed_colors #issueheader td {
   background: $lightGray - 20 !important;
 }
+/* Status updates for closed bugs */ .closed_colors .updates {
+  background: $lightGray - 20 !important;
+}
 /* Sidebar */ #issuemeta {
   padding-left: 3px !important;
   border-right: 3px solid $lightBlue !important;

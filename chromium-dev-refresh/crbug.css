@@ -138,6 +138,10 @@ a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
 .closed_colors #issueheader td {
   background: #e2e2e1 !important; }
 
+/* Status updates for closed bugs */
+.closed_colors .updates {
+  background: #e2e2e1 !important; }
+
 /* Sidebar */
 #issuemeta {
   padding-left: 3px !important;
