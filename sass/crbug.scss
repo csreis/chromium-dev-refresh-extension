@@ -2,6 +2,12 @@
 
 @import "common.scss";
 
+/* Fonts ----- */
+
+/* Comment box */ textarea#addCommentTextArea {
+  @include codefont;
+}
+
 /* Layout ----- */
 
 /* Top banner (minus signin links) */ .headbg div:not(#gaia), .headbg table,

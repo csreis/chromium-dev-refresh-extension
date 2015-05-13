@@ -32,6 +32,12 @@ input[type=submit]:focus, input[type=reset]:focus, input[type=button]:focus,
 select:focus {
   background: #e2e2e1 !important; }
 
+/* Fonts ----- */
+/* Comment box */
+textarea#addCommentTextArea {
+  font-family: "Ubuntu Mono", "Monaco" !important;
+  font-size: 10pt !important; }
+
 /* Layout ----- */
 /* Top banner (minus signin links) */
 .headbg div:not(#gaia), .headbg table,

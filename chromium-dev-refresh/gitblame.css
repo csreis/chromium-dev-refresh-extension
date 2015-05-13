@@ -39,6 +39,14 @@ select:focus {
   font-size: 9pt !important; }
 
 /* Layout and colors ----- */
+@media screen {
+  body {
+    margin: 0px !important;
+    padding: 0px !important;
+    max-width: 100% !important; }
+
+  html {
+    padding-top: 0px !important; } }
 /* Top banner */
 html body h1,
 .footer {
@@ -46,6 +54,7 @@ html body h1,
 
 /* Top menu */
 .menu {
+  position: inherit !important;
   width: 100% !important;
   margin: 0px !important;
   padding: 3px !important;
@@ -62,21 +71,8 @@ html body h1,
 
 /* Filename breadcrumbs */
 .breadcrumbs {
-  position: absolute !important;
-  top: 26px !important;
-  left: 0px !important;
   margin-top: 0px !important;
   font-size: 12pt !important;
   width: 100% !important;
   padding: 3px !important;
   background-color: #a4c9f3 !important; }
-
-/* File blob */
-body > div.sha1 {
-  position: absolute !important;
-  top: 56px !important; }
-
-/* Main blame area */
-#blame {
-  position: absolute !important;
-  top: 72px !important; }
