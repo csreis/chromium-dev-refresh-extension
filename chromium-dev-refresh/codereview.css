@@ -37,7 +37,10 @@ select:focus {
 #issue-description,
 div.inline-comment,
 table#thecode textarea,
-textarea#id_message {
+textarea#id_message,
+#message-reply-form textarea,
+#revert-reason-popup-div textarea,
+#reviewmsgdlg textarea {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important; }
 
@@ -146,7 +149,8 @@ h2 {
 
 /* Publish header */
 .issue-details h2,
-.description {
+.description,
+#reviewmsgdlg {
   background-color: #f6f6f5 !important; }
 
 /* List of issues */

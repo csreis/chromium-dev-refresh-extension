@@ -137,7 +137,11 @@ div.F-b,
 
 /* Selection color */
 ::selection {
-  background: #90b5df !important; }
+  background: #b8ddff !important; }
+
+/* Selection color in seach box */
+.l-o::selection {
+  background: white !important; }
 
 /* Cross-reference highlight */
 .g-H {

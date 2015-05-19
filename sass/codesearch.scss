@@ -91,7 +91,10 @@
   background-color: $lightBlue !important;
 }
 /* Selection color */ ::selection {
-  background: $lightBlue - 20 !important;
+  background: $lightBlue + 20 !important;
+}
+/* Selection color in seach box */ .l-o::selection {
+  background: white !important;
 }
 /* Cross-reference highlight */ .g-H {
   background-color: #fe9 !important;

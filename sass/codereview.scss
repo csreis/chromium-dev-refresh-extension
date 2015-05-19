@@ -7,7 +7,10 @@
 /* CL Description */ #issue-description,
 /* Comments in code */ div.inline-comment,
 /* Comment drafts in code */ table#thecode textarea,
-/* Publish message */ textarea#id_message {
+/* Publish message */ textarea#id_message,
+/* Reply message */ #message-reply-form textarea,
+/* Revert message */ #revert-reason-popup-div textarea,
+/* Draft CL message */ #reviewmsgdlg textarea {
   @include codefont;
 }
 /* CL description edit box */ textarea#id_description {
@@ -101,7 +104,8 @@ body {
   border-bottom: 2px solid $lightBlue !important;
 }
 /* Publish header */ .issue-details h2,
-/* Draft comments */ .description {
+/* Draft comments */ .description,
+/* Draft CL comment */ #reviewmsgdlg {
   background-color: $lightGray !important;
 }
 /* List of issues */ .issue-list {
