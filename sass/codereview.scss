@@ -32,7 +32,7 @@
 body {
   margin: 0px;
 } 
-/* Menu at top */ .mainmenu,
+/* Menu at top (except search) */ .mainmenu a:nth-child(1),
 /* Counter under signin */ .counter,
 /* Issue links (except my issues) */ .mainmenu2 :nth-child(n+2),
 /* Chromium Project link */ body > div:nth-child(3) > a:nth-last-child(2),
@@ -46,6 +46,21 @@ body {
 /* Issue list AppEngine footer */ body > div:nth-child(10) {
   display: none !important;
 }
+/* Search link */ .mainmenu a:nth-child(2) {
+  color: white !important;
+  background: none !important;
+  font-weight: normal !important;
+  font-size: 10pt !important;
+  position: absolute !important;
+  top: 5px !important;
+  left: 5px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+/* Search link (hover) */ .mainmenu a:nth-child(2):hover {
+  text-decoration: underline !important;
+}
+/* Search link text */ .mainmenu,
 /* Issue links text */ .mainmenu2 {
   height: 0px !important;
   margin: 0px !important;
@@ -56,7 +71,7 @@ body {
   position: absolute !important;
   font-size: 10pt !important;
   top: 5px !important;
-  left: 5px !important;
+  left: 60px !important;
 }
 /* Issues link decoration */ body > div.mainmenu2 > a:not(:hover) {
   text-decoration: none !important;

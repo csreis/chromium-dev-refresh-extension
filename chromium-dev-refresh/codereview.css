@@ -65,8 +65,8 @@ textarea#id_description {
 body {
   margin: 0px; }
 
-/* Menu at top */
-.mainmenu,
+/* Menu at top (except search) */
+.mainmenu a:nth-child(1),
 .counter,
 .mainmenu2 :nth-child(n+2),
 body > div:nth-child(3) > a:nth-last-child(2),
@@ -80,7 +80,24 @@ body > div:nth-child(8) > p,
 body > div:nth-child(10) {
   display: none !important; }
 
-/* Issue links text */
+/* Search link */
+.mainmenu a:nth-child(2) {
+  color: white !important;
+  background: none !important;
+  font-weight: normal !important;
+  font-size: 10pt !important;
+  position: absolute !important;
+  top: 5px !important;
+  left: 5px !important;
+  margin: 0px !important;
+  padding: 0px !important; }
+
+/* Search link (hover) */
+.mainmenu a:nth-child(2):hover {
+  text-decoration: underline !important; }
+
+/* Search link text */
+.mainmenu,
 .mainmenu2 {
   height: 0px !important;
   margin: 0px !important;
@@ -92,7 +109,7 @@ body > div.mainmenu2 > a:nth-child(1) {
   position: absolute !important;
   font-size: 10pt !important;
   top: 5px !important;
-  left: 5px !important; }
+  left: 60px !important; }
 
 /* Issues link decoration */
 body > div.mainmenu2 > a:not(:hover) {
