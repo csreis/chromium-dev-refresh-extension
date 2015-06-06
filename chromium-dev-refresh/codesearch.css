@@ -45,6 +45,7 @@ div.F-b,
   line-height: 1.3em !important; }
 
 /* Layout ----- */
+/* Amount to move the banner to be compatible with HideBanner and OmniChromium. */
 /* Top banner */
 .headbg,
 .gtb,
@@ -61,19 +62,25 @@ div.F-b,
 .x-i {
   border: 0px !important; }
 
+/* Code page breadcrumb bar */
+.b-a {
+  margin-top: 0px !important;
+  top: -135px !important; }
+
 /* Breadcrumb bar (Code page) */
 .b-a > div:nth-child(1) > div > div:nth-child(3),
 .b-a > div:nth-child(2) > div > div:nth-child(3) {
-  top: 26px !important; }
+  top: 161px !important; }
 
 /* Main panel (Code page) */
 .b-a > div:nth-child(1) > div > div:nth-child(4),
 .b-a > div:nth-child(2) > div > div:nth-child(4) {
-  top: 54px !important; }
+  top: 189px !important; }
 
-/* Code page breadcrumb bar */
-.b-a {
-  margin-top: 0px !important; }
+/* Home page search area */
+.b-a > div:nth-child(3) {
+  position: absolute !important;
+  top: 135px !important; }
 
 /* Colors ----- */
 /* Header */

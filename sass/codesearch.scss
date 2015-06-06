@@ -16,6 +16,9 @@
 
 /* Layout ----- */
 
+/* Amount to move the banner to be compatible with HideBanner and OmniChromium. */
+$bannerAdjust: 135px;
+
 /* Top banner */ .headbg,
 /* Top menu */ .gtb,
 /* Search box button */ .button100,
@@ -29,16 +32,21 @@
 /* Page border (Search results page) */ .x-i {
   border: 0px !important;
 }
+/* Code page breadcrumb bar */ .b-a {
+  margin-top: 0px !important;
+  top: -$bannerAdjust !important;
+}
 /* Breadcrumb bar (Code page) */ .b-a > div:nth-child(1) > div > div:nth-child(3),
 /* Breadcrumb bar (Search results page) */ .b-a > div:nth-child(2) > div > div:nth-child(3) {
-  top: 26px !important;
+  top: 26px + $bannerAdjust !important;
 }
 /* Main panel (Code page) */ .b-a > div:nth-child(1) > div > div:nth-child(4),
 /* Main panel (Search results page) */ .b-a > div:nth-child(2) > div > div:nth-child(4) {
-  top: 54px !important;
+  top: 54px + $bannerAdjust !important;
 }
-/* Code page breadcrumb bar */ .b-a {
-  margin-top: 0px !important;
+/* Home page search area */ .b-a > div:nth-child(3) {
+  position: absolute !important;
+  top: $bannerAdjust !important;
 }
 
 /* Colors ----- */
