@@ -34,7 +34,8 @@ select:focus {
 
 /* Fonts ----- */
 /* Comment box */
-textarea#addCommentTextArea {
+textarea#addCommentTextArea,
+textarea[name="comment"] {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important; }
 
@@ -137,7 +138,8 @@ a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
   color: #4678c2 !important; }
 
 /* Issue title */
-#issueheader td {
+#issueheader td,
+.tip {
   background: #a4c9f3 !important; }
 
 /* Issue title for closed bugs */

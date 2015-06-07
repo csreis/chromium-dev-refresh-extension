@@ -92,6 +92,12 @@ body {
 /* Issue header on issue list */ body > div:nth-child(8) > h2 {
   display: block !important;
 }
+/* Delete drafts form */ body > div:nth-child(8) > table > tbody > tr > td:nth-child(2) > form {
+  text-align: right !important;
+}
+/* Delete drafts button */ body > div:nth-child(8) > table > tbody > tr > td:nth-child(2) > form > button {
+  text-transform: uppercase !important;
+}
 
 /* Colors ----- */
 

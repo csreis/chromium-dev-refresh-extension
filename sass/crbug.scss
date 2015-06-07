@@ -4,7 +4,8 @@
 
 /* Fonts ----- */
 
-/* Comment box */ textarea#addCommentTextArea {
+/* Comment box */ textarea#addCommentTextArea,
+/* New bug description */ textarea[name="comment"] {
   @include codefont;
 }
 
@@ -90,7 +91,8 @@
 /* Page links */ a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
   color: $darkBlue - 20 !important;
 } 
-/* Issue title */ #issueheader td {
+/* Issue title */ #issueheader td,
+/* Tips */ .tip {
   background: $lightBlue !important;
 }
 /* Issue title for closed bugs */ .closed_colors #issueheader td {
