@@ -137,11 +137,11 @@ body > div:nth-child(8) > h2 {
   display: block !important; }
 
 /* Delete drafts form */
-body > div:nth-child(8) > table > tbody > tr > td:nth-child(2) > form {
+body > div:nth-child(8) > table > tbody > tr > td:nth-child(2) > form[action$="delete_drafts"] {
   text-align: right !important; }
 
 /* Delete drafts button */
-body > div:nth-child(8) > table > tbody > tr > td:nth-child(2) > form > button {
+body > div:nth-child(8) > table > tbody > tr > td:nth-child(2) > form[action$="delete_drafts"] > button {
   text-transform: uppercase !important; }
 
 /* Colors ----- */
