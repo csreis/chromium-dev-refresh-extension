@@ -21,11 +21,14 @@
     padding-top: 0px !important;
   }
 }
-/* Top banner */ html body h1,
-/* Powered by Gitiles footer */ .footer {
+/* Logo */ .Header-image,
+/* Powered by Gitiles footer */ .Footer {
   display: none !important;
 }
-/* Top menu */ .menu {
+/* Top banner */ .Header {
+  padding: 0px !important;
+}
+/* Top menu */ .Header-menu {
   position: inherit !important;
   width: 100% !important;
   margin: 0px !important;
@@ -33,17 +36,29 @@
   background-color: $darkBlue !important;
   color: white !important;
 }
-/* Top menu links */ .menu a {
+/* Top menu links */ .Header-menu a {
   color: white !important;
 }
-/* Between top menu links */ .menu .entry {
+/* Between top menu links */ .Header-menu .entry {
   border: 0px !important;
 }
-/* Filename breadcrumbs */ .breadcrumbs {
-  margin-top: 0px !important;
+/* General page content */ .Container {
+  max-width: unset !important;
+}
+/* Content margin */ .Site-content {
+  padding: 0px !important;
+}
+/* Filename breadcrumbs */ .Breadcrumbs {
+  margin: 0px !important;
   font-size: 12pt !important;
   width: 100% !important;
   padding: 3px !important;
   background-color: $lightBlue !important;
+}
+/* Git hash */ .BlobSha1 {
+  margin: 0px !important;
+}
+/* Git blame */ .Blame {
+  position: absolute !important;
 }
 

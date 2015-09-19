@@ -47,13 +47,17 @@ select:focus {
 
   html {
     padding-top: 0px !important; } }
-/* Top banner */
-html body h1,
-.footer {
+/* Logo */
+.Header-image,
+.Footer {
   display: none !important; }
 
+/* Top banner */
+.Header {
+  padding: 0px !important; }
+
 /* Top menu */
-.menu {
+.Header-menu {
   position: inherit !important;
   width: 100% !important;
   margin: 0px !important;
@@ -62,17 +66,33 @@ html body h1,
   color: white !important; }
 
 /* Top menu links */
-.menu a {
+.Header-menu a {
   color: white !important; }
 
 /* Between top menu links */
-.menu .entry {
+.Header-menu .entry {
   border: 0px !important; }
 
+/* General page content */
+.Container {
+  max-width: unset !important; }
+
+/* Content margin */
+.Site-content {
+  padding: 0px !important; }
+
 /* Filename breadcrumbs */
-.breadcrumbs {
-  margin-top: 0px !important;
+.Breadcrumbs {
+  margin: 0px !important;
   font-size: 12pt !important;
   width: 100% !important;
   padding: 3px !important;
   background-color: #a4c9f3 !important; }
+
+/* Git hash */
+.BlobSha1 {
+  margin: 0px !important; }
+
+/* Git blame */
+.Blame {
+  position: absolute !important; }
