@@ -16,45 +16,42 @@
 
 /* Layout ----- */
 
-/* Amount to move the banner to be compatible with HideBanner and OmniChromium. */
-$bannerAdjust: 135px;
-
-/* Top banner */ .headbg,
-/* Top menu */ .gtb,
+/* Chromium logo */ .m-d, .gwt-Image,
 /* Search box button */ .button100,
 /* Button gradient */ .goog-button-base-top-shadow {
   display: none !important;
 }
-/* Whitespace in header */ .sandbar {
-  height: 0px !important;
+/* TD left of search box */ .m-e td:first-child {
+  display: none !important;
 }
 /* Page border (Code page) */ .g-J,
 /* Page border (Search results page) */ .x-i {
   border: 0px !important;
 }
 /* Code page breadcrumb bar */ .b-a {
-  margin-top: 0px !important;
-  top: -$bannerAdjust !important;
+  margin-top: 7px !important;
 }
 /* Breadcrumb bar (Code page) */ .b-a > div:nth-child(1) > div > div:nth-child(3),
 /* Breadcrumb bar (Search results page) */ .b-a > div:nth-child(2) > div > div:nth-child(3) {
-  top: 26px + $bannerAdjust !important;
+  top: 20px !important;
 }
 /* Main panel (Code page) */ .b-a > div:nth-child(1) > div > div:nth-child(4),
 /* Main panel (Search results page) */ .b-a > div:nth-child(2) > div > div:nth-child(4) {
-  top: 54px + $bannerAdjust !important;
+  top: 48px !important;
 }
 /* Home page search area */ .b-a > div:nth-child(3) {
   position: absolute !important;
-  top: $bannerAdjust !important;
+  top: -60px !important;
 }
 
 /* Colors ----- */
 
-/* Header */ .m-d {
+/* Header */ .m-e {
   background-color: $darkBlue !important;
   margin: 0px !important;
+  height: 27px !important;
 }
+
 /* Search box */ .l-o {
   background-color: $lightBlue !important;
   color: black !important;
@@ -110,18 +107,18 @@ $bannerAdjust: 135px;
 }
 /* VDragger */ .gwt-SplitLayoutPanel-VDragger,
 /* HDragger */ .gwt-SplitLayoutPanel-HDragger, 
-/* VDragger */ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(3) > div,
-/* HDragger */ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(5) > div {
+/* VDragger */ body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(5) > div,
+/* HDragger */ body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(3) > div {
   /* Uses more specific CSS path, since the Dragger classes use !important */
   background-color: $lightBlue !important;    
 }
-/* Home page background */ .p-c {
+/* Home page background */ .q-c {
   background-color: $lightGray !important;
 }
-/* Home page title font */ .q-j {
+/* Home page title font */ .q-k {
   color: $darkBlue !important;
 }
-/* Home page search box */ body > div:nth-child(6) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.q-i > div > input {
+/* Home page search box */ body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.q-j > div > input {
   background-color: white !important;
   border: 1px solid $lightBlue !important;
 }

@@ -34,7 +34,7 @@ select:focus {
 
 /* Fonts ----- */
 /* Code */
-.prettyprint {
+.prettyprint, .u-monospace {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 9pt !important; }
 
