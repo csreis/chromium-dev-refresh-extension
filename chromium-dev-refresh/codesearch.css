@@ -135,11 +135,6 @@ div.F-b,
 .g-Ob {
   background: #f6f6f5 !important; }
 
-/* Line highlight */
-.g-Ub,
-.g-hb {
-  background-color: #a4c9f3 !important; }
-
 /* Selection color */
 ::selection {
   background: #b8ddff !important; }
