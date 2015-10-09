@@ -91,10 +91,6 @@
 /* Scroll gutter */ .g-Ob {
   background: $lightGray !important;
 }
-/* Line highlight */ .g-Ub,
-/* Navigation line highlight */ .g-hb {
-  background-color: $lightBlue !important;
-}
 /* Selection color */ ::selection {
   background: $lightBlue + 20 !important;
 }
