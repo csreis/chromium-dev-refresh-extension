@@ -24,9 +24,10 @@
 /* TD left of search box */ .m-e td:first-child {
   display: none !important;
 }
-/* Page border (Code page) */ .g-J,
+/* Page border (Code page) */ .g-hb,
 /* Page border (Search results page) */ .x-i {
   border: 0px !important;
+  margin: 0px !important;
 }
 /* Code page breadcrumb bar */ .b-a {
   margin-top: 7px !important;
@@ -88,8 +89,12 @@
   background-color: $lightGray !important;
   border-bottom: solid 1px $lightBlue !important;
 }
-/* Scroll gutter */ .g-Ob {
+/* Scroll gutter */ .g-Mb {
   background: $lightGray !important;
+}
+/* Line highlight */ .g-Sb,
+/* Navigation line highlight */ .g-fb {
+  background-color: $lightBlue !important;
 }
 /* Selection color */ ::selection {
   background: $lightBlue + 20 !important;

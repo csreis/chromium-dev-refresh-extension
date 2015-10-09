@@ -56,9 +56,10 @@ div.F-b,
   display: none !important; }
 
 /* Page border (Code page) */
-.g-J,
+.g-hb,
 .x-i {
-  border: 0px !important; }
+  border: 0px !important;
+  margin: 0px !important; }
 
 /* Code page breadcrumb bar */
 .b-a {
@@ -132,8 +133,13 @@ div.F-b,
   border-bottom: solid 1px #a4c9f3 !important; }
 
 /* Scroll gutter */
-.g-Ob {
+.g-Mb {
   background: #f6f6f5 !important; }
+
+/* Line highlight */
+.g-Sb,
+.g-fb {
+  background-color: #a4c9f3 !important; }
 
 /* Selection color */
 ::selection {
