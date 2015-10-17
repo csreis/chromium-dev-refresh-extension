@@ -81,6 +81,11 @@ select:focus {
 .Site-content {
   padding: 0px !important; }
 
+/* Content area for file list */
+.RepoShortlog,
+.DiffTree {
+  margin-left: 10px !important; }
+
 /* Filename breadcrumbs */
 .Breadcrumbs {
   margin: 0px !important;

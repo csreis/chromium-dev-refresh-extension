@@ -48,6 +48,10 @@
 /* Content margin */ .Site-content {
   padding: 0px !important;
 }
+/* Content area for file list */ .RepoShortlog,
+/* File list for CL description */ .DiffTree {
+  margin-left: 10px !important;
+}
 /* Filename breadcrumbs */ .Breadcrumbs {
   margin: 0px !important;
   font-size: 12pt !important;

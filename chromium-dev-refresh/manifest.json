@@ -14,6 +14,7 @@
      },
      {
        "matches": [ "*://chromium.googlesource.com/*" ],
+       "exclude_globs": [ "*.md" ],
        "js": [ "fonts.js" ],
        "css": [ "gitblame.css" ],
        "run_at": "document_start"
@@ -28,5 +29,5 @@
    "description": "Style refresh for several Chromium development websites.",
    "manifest_version": 2,
    "name": "Chromium Dev Refresh",
-   "version": "0.2.3"
+   "version": "0.2.4"
 }

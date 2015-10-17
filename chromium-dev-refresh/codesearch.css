@@ -38,7 +38,7 @@ pre, xmp, plaintext, listing {
   line-height: 1.3em !important; }
 
 /* Line numbers */
-div.F-b,
+div.E-b,
 .B-l > a {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important;
@@ -104,7 +104,7 @@ div.F-b,
 
 /* XRefs subheaders */
 .B-b,
-.Y-a {
+.X-a {
   background-color: #f6f6f5 !important; }
 
 /* XRefs top header */
