@@ -25,7 +25,7 @@
   display: none !important;
 }
 /* Page border (Code page) */ .g-hb,
-/* Page border (Search results page) */ .x-i {
+/* Page border (Search results page) */ .w-i {
   border: 0px !important;
   margin: 0px !important;
 }
@@ -58,15 +58,16 @@
   color: black !important;
   border: 0px !important;
 }
-/* Breadcrumb bar */ .t-c,
-/* Search results bar */ .w-c {
+/* Breadcrumb bar */ .s-c,
+/* Search results bar */ .v-c {
   background-color: $lightBlue !important;
+  margin: 0px !important;
 }
 /* Button background */ .goog-button-base-inner-box {
   background: $lightGray !important;
 }
 /* XRefs subheaders */ .B-b,
-/* Search results breadcrumbs */ .X-a {
+/* Search results breadcrumbs */ .Y-a {
   background-color: $lightGray !important;
 }
 /* XRefs top header */ .B-m {
@@ -119,7 +120,7 @@
 /* Home page title font */ .q-k {
   color: $darkBlue !important;
 }
-/* Home page search box */ body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.q-j > div > input {
+/* Home page search box */ body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.p-j > div > input {
   background-color: white !important;
   border: 1px solid $lightBlue !important;
 }

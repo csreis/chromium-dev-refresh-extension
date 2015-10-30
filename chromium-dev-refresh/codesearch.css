@@ -57,7 +57,7 @@ div.E-b,
 
 /* Page border (Code page) */
 .g-hb,
-.x-i {
+.w-i {
   border: 0px !important;
   margin: 0px !important; }
 
@@ -94,9 +94,10 @@ div.E-b,
   border: 0px !important; }
 
 /* Breadcrumb bar */
-.t-c,
-.w-c {
-  background-color: #a4c9f3 !important; }
+.s-c,
+.v-c {
+  background-color: #a4c9f3 !important;
+  margin: 0px !important; }
 
 /* Button background */
 .goog-button-base-inner-box {
@@ -104,7 +105,7 @@ div.E-b,
 
 /* XRefs subheaders */
 .B-b,
-.X-a {
+.Y-a {
   background-color: #f6f6f5 !important; }
 
 /* XRefs top header */
@@ -171,6 +172,6 @@ body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(1) > div > div:
   color: #5a8cd6 !important; }
 
 /* Home page search box */
-body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.q-j > div > input {
+body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.p-j > div > input {
   background-color: white !important;
   border: 1px solid #a4c9f3 !important; }
