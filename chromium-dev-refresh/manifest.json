@@ -7,7 +7,8 @@
        "run_at": "document_start"
      },
      {
-       "matches": [ "*://code.google.com/p/chromium/issues*" ],
+       "matches": [ "*://code.google.com/p/chromium/issues*",
+                    "*://bugs.chromium.org/p/chromium/issues*" ],
        "js": [ "fonts.js" ],
        "css": [ "crbug.css" ],
        "run_at": "document_start"
@@ -29,5 +30,5 @@
    "description": "Style refresh for several Chromium development websites.",
    "manifest_version": 2,
    "name": "Chromium Dev Refresh",
-   "version": "0.2.6"
+   "version": "0.2.7"
 }

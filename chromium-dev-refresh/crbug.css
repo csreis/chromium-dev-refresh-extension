@@ -39,6 +39,10 @@ textarea[name="comment"] {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important; }
 
+/* Issue header */
+.h3 {
+  font-family: "Roboto", "Gill Sans", "Sans Serif" !important; }
+
 /* Layout ----- */
 /* Top banner (minus signin links) */
 .headbg div:not(#gaia), .headbg table,
@@ -51,7 +55,7 @@ textarea[name="comment"] {
   display: none !important; }
 
 /* Issue title */
-#issueheader {
+#issueheader, .issuemetaheader {
   margin: 0px !important;
   padding: 5px !important;
   border: 0px !important;
@@ -61,9 +65,14 @@ textarea[name="comment"] {
 body.t3 {
   margin: 0px !important; }
 
+/* Right of issue title */
+#meta-container > tbody > tr:nth-child(1) > td.vt.issueheader,
+#meta-container > tbody > tr:nth-child(2) > td:nth-child(3) {
+  border-right: 0px !important; }
+
 /* Around main content area */
-#maincol {
-  padding: 0px !important; }
+#maincol, .issuepage td {
+  padding: 3px 0px 0px 0px !important; }
 
 /* Colors ----- */
 /* Sign in */
@@ -138,32 +147,43 @@ a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
   color: #4678c2 !important; }
 
 /* Issue title */
-#issueheader td,
+#issueheader td, td.issueheader, .issuemetaheader,
 .tip {
   background: #a4c9f3 !important; }
 
 /* Issue title for closed bugs */
-.closed_colors #issueheader td {
-  background: #e2e2e1 !important; }
+.closed_colors #issueheader td,
+.closed_colors td.issueheader,
+.closed_colors .issuemetaheader {
+  background: #e2e2e1 !important;
+  color: black !important; }
 
 /* Status updates for closed bugs */
-.closed_colors .updates {
+.closed_colors .updates, .closed_colors td.issueheader a {
   background: #e2e2e1 !important; }
 
 /* Sidebar */
 #issuemeta {
   padding-left: 3px !important;
+  padding-bottom: 5px !important;
   border-right: 3px solid #a4c9f3 !important;
   border-bottom: 3px solid #a4c9f3 !important;
+  border-top: 0px !important;
   background-color: #f6f6f5 !important; }
 
 /* Comment area header */
 .issuecomment {
   border-top: 3px solid #a4c9f3 !important; }
 
+/* Comment header */
+.issuecommentheader {
+  background-color: white !important; }
+
 /* Status updates in comments */
 .updates {
-  background: #f6f6f5 !important; }
+  background: #f6f6f5 !important;
+  border-radius: 5px !important;
+  padding: 3px !important; }
 
 /* Add a comment header */
 div.h4 {
