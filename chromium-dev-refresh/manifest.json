@@ -1,7 +1,7 @@
 {
    "content_scripts": [ 
      {
-       "matches": [ "*://code.google.com/p/chromium/codesearch*" ],
+       "matches": [ "*://cs.chromium.org/*" ],
        "js": [ "fonts.js" ],
        "css": [ "codesearch.css" ],
        "run_at": "document_start"
@@ -30,5 +30,5 @@
    "description": "Style refresh for several Chromium development websites.",
    "manifest_version": 2,
    "name": "Chromium Dev Refresh",
-   "version": "0.2.7"
+   "version": "0.2.8"
 }

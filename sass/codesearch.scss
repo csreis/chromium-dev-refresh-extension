@@ -8,119 +8,112 @@
   line-height: 1.3em !important;
 }
 
-/* Line numbers */ div.E-c,
-/* XRefs text */ .B-l>a {
+/* Line numbers */ .lineNumberContainer,
+/* XRefs text */ .A-m>a {
   @include codefont;
   line-height: 1.3em !important;
 }
 
 /* Layout ----- */
 
-/* Chromium logo */ .m-d, .gwt-Image,
+/* Chromium logo */ .l-d, .gwt-Image,
+/* Chromium logo on home page */ .q-h,
 /* Search box button */ .button100,
 /* Button gradient */ .goog-button-base-top-shadow {
   display: none !important;
 }
-/* TD left of search box */ .m-e td:first-child {
+/* TD left of search box */ .l-e td:first-child {
   display: none !important;
 }
-/* Page border (Code page) */ .g-hb,
-/* Page border (Search results page) */ .w-i {
+/* Page border (Code page) */ #browse {
   border: 0px !important;
   margin: 0px !important;
 }
-/* Code page breadcrumb bar */ .b-a {
-  margin-top: 7px !important;
-}
-/* Breadcrumb bar (Code page) */ .b-a > div:nth-child(1) > div > div:nth-child(3),
-/* Breadcrumb bar (Search results page) */ .b-a > div:nth-child(2) > div > div:nth-child(3) {
-  top: 20px !important;
-}
-/* Main panel (Code page) */ .b-a > div:nth-child(1) > div > div:nth-child(4),
-/* Main panel (Search results page) */ .b-a > div:nth-child(2) > div > div:nth-child(4) {
-  top: 48px !important;
-}
-/* Home page search area */ .b-a > div:nth-child(3) {
-  position: absolute !important;
-  top: -60px !important;
+/* Breadcrumb bar (Code page) */ body>div#browse:nth-child(4),
+/* Breadcrumb bar (Search results page) */ body>div#results:nth-child(3) {
+  top: 27px !important;
 }
 
 /* Colors ----- */
 
-/* Header */ .m-e {
+/* Header */ .l-e {
   background-color: $darkBlue !important;
   margin: 0px !important;
   height: 27px !important;
 }
 
-/* Search box */ .l-o {
+/* Search box */ .k-o {
   background-color: $lightBlue !important;
   color: black !important;
   border: 0px !important;
 }
-/* Breadcrumb bar */ .s-c,
-/* Search results bar */ .v-c {
+/* Breadcrumb bar */ .t-c, #breadcrumbs,
+/* Search results bar */ .w-c {
   background-color: $lightBlue !important;
   margin: 0px !important;
 }
 /* Button background */ .goog-button-base-inner-box {
   background: $lightGray !important;
 }
-/* XRefs subheaders */ .B-b,
-/* Search results breadcrumbs */ .Y-a {
-  background-color: $lightGray !important;
-}
-/* XRefs top header */ .B-m {
+/* XRefs top header */ .A-n {
   background-color: $lightGray !important;
   border-top: solid 1px $lightBlue !important;
   border-bottom: solid 1px $lightBlue !important;
 }
-/* XRefs line numbers */ .B-i {
+/* XRefs subheaders */ .A-b, .H-b,
+/* Search results breadcrumbs */ .X-a {
+  background-color: $lightGray !important;
+}
+/* XRefs line numbers */ .A-j, .ab-l:link, .ab-l:active, .ab-l:visited, .ab-l:hover {
   color: $darkGray !important;
 }
-/* Search results "Show N matches" */ .pb-d {
+/* Search results "Show N matches" */ .sb-d {
   color: black !important;
 }
-/* Outer border margin (Code page) */ .g-jb,
+/* Outer border margin (Code page) */ #browsecontent,
 /* Outer border margin (Search results page) */ .x-i, .w-c {
   margin: 0px !important;
+  border: 0px !important;
 }
-/* Filename bar */ .g-m,
+/* Filename bar */ .content-header,
 /* Navigation header */ .gwt-TabLayoutPanelTabs-outer {
   background-color: $lightGray !important;
   border-bottom: solid 1px $lightBlue !important;
 }
-/* Scroll gutter */ .g-Mb {
+/* Scroll gutter */ .g-Nb, .pagerContainer {
   background: $lightGray !important;
 }
-/* Line highlight */ .g-Sb,
-/* Navigation line highlight */ .g-fb {
+/* Line highlight */ .g-Tb,
+/* Navigation line highlight */ .g-Sb {
   background-color: $lightBlue !important;
 }
 /* Selection color */ ::selection {
   background: $lightBlue + 20 !important;
 }
-/* Selection color in seach box */ .l-o::selection {
+/* Selection color in seach box */ .k-o::selection {
   background: white !important;
 }
-/* Cross-reference highlight */ .g-H {
+/* Cross-reference highlight */ .g-L {
   background-color: #fe9 !important;
   border-radius: 10px !important;
 }
-/* VDragger */ .gwt-SplitLayoutPanel-VDragger,
-/* HDragger */ .gwt-SplitLayoutPanel-HDragger, 
-/* VDragger */ body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(5) > div,
-/* HDragger */ body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(3) > div {
-  /* Uses more specific CSS path, since the Dragger classes use !important */
+/* VDragger */ #leftpanel_drag,
+/* HDragger */ #bottompanel_drag {
   background-color: $lightBlue !important;    
 }
 /* Home page background */ .q-c {
   background-color: $lightGray !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+/* Home page background height */ div#home {
+  height: 100% !important;
+  max-height: 100% !important;
 }
 /* Home page title font */ .q-k {
   color: $darkBlue !important;
 }
-/* Home page search box */ body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.p-j > div > input {
+/* Home page search box */ .q-j > .k-c > .k-o {
   background-color: white !important;
   border: 1px solid $lightBlue !important;
 }

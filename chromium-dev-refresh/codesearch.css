@@ -38,64 +38,50 @@ pre, xmp, plaintext, listing {
   line-height: 1.3em !important; }
 
 /* Line numbers */
-div.E-c,
-.B-l > a {
+.lineNumberContainer,
+.A-m > a {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important;
   line-height: 1.3em !important; }
 
 /* Layout ----- */
 /* Chromium logo */
-.m-d, .gwt-Image,
+.l-d, .gwt-Image,
+.q-h,
 .button100,
 .goog-button-base-top-shadow {
   display: none !important; }
 
 /* TD left of search box */
-.m-e td:first-child {
+.l-e td:first-child {
   display: none !important; }
 
 /* Page border (Code page) */
-.g-hb,
-.w-i {
+#browse {
   border: 0px !important;
   margin: 0px !important; }
 
-/* Code page breadcrumb bar */
-.b-a {
-  margin-top: 7px !important; }
-
 /* Breadcrumb bar (Code page) */
-.b-a > div:nth-child(1) > div > div:nth-child(3),
-.b-a > div:nth-child(2) > div > div:nth-child(3) {
-  top: 20px !important; }
-
-/* Main panel (Code page) */
-.b-a > div:nth-child(1) > div > div:nth-child(4),
-.b-a > div:nth-child(2) > div > div:nth-child(4) {
-  top: 48px !important; }
-
-/* Home page search area */
-.b-a > div:nth-child(3) {
-  position: absolute !important;
-  top: -60px !important; }
+body > div#browse:nth-child(4),
+body > div#results:nth-child(3) {
+  top: 27px !important; }
 
 /* Colors ----- */
 /* Header */
-.m-e {
+.l-e {
   background-color: #5a8cd6 !important;
   margin: 0px !important;
   height: 27px !important; }
 
 /* Search box */
-.l-o {
+.k-o {
   background-color: #a4c9f3 !important;
   color: black !important;
   border: 0px !important; }
 
 /* Breadcrumb bar */
-.s-c,
-.v-c {
+.t-c, #breadcrumbs,
+.w-c {
   background-color: #a4c9f3 !important;
   margin: 0px !important; }
 
@@ -103,43 +89,44 @@ div.E-c,
 .goog-button-base-inner-box {
   background: #f6f6f5 !important; }
 
-/* XRefs subheaders */
-.B-b,
-.Y-a {
-  background-color: #f6f6f5 !important; }
-
 /* XRefs top header */
-.B-m {
+.A-n {
   background-color: #f6f6f5 !important;
   border-top: solid 1px #a4c9f3 !important;
   border-bottom: solid 1px #a4c9f3 !important; }
 
+/* XRefs subheaders */
+.A-b, .H-b,
+.X-a {
+  background-color: #f6f6f5 !important; }
+
 /* XRefs line numbers */
-.B-i {
+.A-j, .ab-l:link, .ab-l:active, .ab-l:visited, .ab-l:hover {
   color: #cacaca !important; }
 
 /* Search results "Show N matches" */
-.pb-d {
+.sb-d {
   color: black !important; }
 
 /* Outer border margin (Code page) */
-.g-jb,
+#browsecontent,
 .x-i, .w-c {
-  margin: 0px !important; }
+  margin: 0px !important;
+  border: 0px !important; }
 
 /* Filename bar */
-.g-m,
+.content-header,
 .gwt-TabLayoutPanelTabs-outer {
   background-color: #f6f6f5 !important;
   border-bottom: solid 1px #a4c9f3 !important; }
 
 /* Scroll gutter */
-.g-Mb {
+.g-Nb, .pagerContainer {
   background: #f6f6f5 !important; }
 
 /* Line highlight */
-.g-Sb,
-.g-fb {
+.g-Tb,
+.g-Sb {
   background-color: #a4c9f3 !important; }
 
 /* Selection color */
@@ -147,31 +134,35 @@ div.E-c,
   background: #b8ddff !important; }
 
 /* Selection color in seach box */
-.l-o::selection {
+.k-o::selection {
   background: white !important; }
 
 /* Cross-reference highlight */
-.g-H {
+.g-L {
   background-color: #fe9 !important;
   border-radius: 10px !important; }
 
 /* VDragger */
-.gwt-SplitLayoutPanel-VDragger,
-.gwt-SplitLayoutPanel-HDragger,
-body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(5) > div,
-body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(1) > div > div:nth-child(4) > div > div:nth-child(3) > div {
-  /* Uses more specific CSS path, since the Dragger classes use !important */
+#leftpanel_drag,
+#bottompanel_drag {
   background-color: #a4c9f3 !important; }
 
 /* Home page background */
 .q-c {
-  background-color: #f6f6f5 !important; }
+  background-color: #f6f6f5 !important;
+  width: 100% !important;
+  height: 100% !important; }
+
+/* Home page background height */
+div#home {
+  height: 100% !important;
+  max-height: 100% !important; }
 
 /* Home page title font */
 .q-k {
   color: #5a8cd6 !important; }
 
 /* Home page search box */
-body > div:nth-child(5) > div:nth-child(3) > div > div:nth-child(3) > div > div > center > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td.p-j > div > input {
+.q-j > .k-c > .k-o {
   background-color: white !important;
   border: 1px solid #a4c9f3 !important; }
