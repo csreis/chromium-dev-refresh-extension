@@ -142,6 +142,10 @@ body.t3 {
 #ac-list .selected {
   background-color: #a4c9f3 !important; }
 
+/* Search results header */
+.results th, .results_lite th {
+  background-color: #a4c9f3 !important; }
+
 /* Page links */
 a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
   color: #4678c2 !important; }

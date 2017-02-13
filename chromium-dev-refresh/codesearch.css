@@ -44,16 +44,24 @@ pre, xmp, plaintext, listing {
   font-size: 10pt !important;
   line-height: 1.3em !important; }
 
+/* Blame layer */
+.f-g {
+  font-family: "Ubuntu Mono", "Monaco" !important;
+  font-size: 10pt !important;
+  line-height: 1.3em !important;
+  font-size: 9pt !important;
+  color: #5a8cd6 !important; }
+
 /* Layout ----- */
 /* Chromium logo */
-.l-d, .gwt-Image,
+.k-d, .gwt-Image,
 .q-h,
 .button100,
 .goog-button-base-top-shadow {
   display: none !important; }
 
 /* TD left of search box */
-.l-e td:first-child {
+.k-e td:first-child {
   display: none !important; }
 
 /* Page border (Code page) */
@@ -68,20 +76,24 @@ body > div#results:nth-child(3) {
 
 /* Colors ----- */
 /* Header */
-.l-e {
+.k-e {
   background-color: #5a8cd6 !important;
   margin: 0px !important;
   height: 27px !important; }
 
 /* Search box */
-.k-o {
+.j-o {
   background-color: #a4c9f3 !important;
   color: black !important;
   border: 0px !important; }
 
+/* Selection color in seach box */
+.j-o::selection {
+  background: white !important; }
+
 /* Breadcrumb bar */
 .t-c, #breadcrumbs,
-.w-c {
+.cb-a {
   background-color: #a4c9f3 !important;
   margin: 0px !important; }
 
@@ -90,55 +102,54 @@ body > div#results:nth-child(3) {
   background: #f6f6f5 !important; }
 
 /* XRefs top header */
-.A-n {
+.gwt-TabLayoutPanelTabs-outer {
   background-color: #f6f6f5 !important;
   border-top: solid 1px #a4c9f3 !important;
   border-bottom: solid 1px #a4c9f3 !important; }
 
 /* XRefs subheaders */
-.A-b, .H-b,
-.X-a {
+.C-o, .C-a,
+.w-c,
+.C-h {
   background-color: #f6f6f5 !important; }
 
 /* XRefs line numbers */
-.A-j, .ab-l:link, .ab-l:active, .ab-l:visited, .ab-l:hover {
+.C-j, .ab-l:link, .ab-l:active, .ab-l:visited, .ab-l:hover {
   color: #cacaca !important; }
 
 /* Search results "Show N matches" */
-.sb-d {
+.yb-d {
   color: black !important; }
 
 /* Outer border margin (Code page) */
 #browsecontent,
 .x-i, .w-c {
+  /* TODO */
   margin: 0px !important;
   border: 0px !important; }
 
 /* Filename bar */
 .content-header,
-.gwt-TabLayoutPanelTabs-outer {
+.fb-h {
   background-color: #f6f6f5 !important;
   border-bottom: solid 1px #a4c9f3 !important; }
 
 /* Scroll gutter */
-.g-Nb, .pagerContainer {
+.f-Nb, .pagerContainer {
   background: #f6f6f5 !important; }
 
 /* Line highlight */
-.g-Tb,
-.g-Sb {
+.f-Ub,
+.f-hb {
   background-color: #a4c9f3 !important; }
 
 /* Selection color */
 ::selection {
   background: #b8ddff !important; }
 
-/* Selection color in seach box */
-.k-o::selection {
-  background: white !important; }
-
 /* Cross-reference highlight */
 .g-L {
+  /* TODO */
   background-color: #fe9 !important;
   border-radius: 10px !important; }
 
@@ -148,7 +159,7 @@ body > div#results:nth-child(3) {
   background-color: #a4c9f3 !important; }
 
 /* Home page background */
-.q-c {
+.p-c {
   background-color: #f6f6f5 !important;
   width: 100% !important;
   height: 100% !important; }
@@ -160,9 +171,18 @@ div#home {
 
 /* Home page title font */
 .q-k {
+  /* TODO */
   color: #5a8cd6 !important; }
 
 /* Home page search box */
-.q-j > .k-c > .k-o {
+.p-j > .j-c > .j-o {
   background-color: white !important;
   border: 1px solid #a4c9f3 !important; }
+
+/* Selection color in seach box */
+.p-j > .j-c > .j-o::selection {
+  background: #a4c9f3 !important; }
+
+/* Blame line shading */
+.f-f {
+  background-color: #f6f6f5 !important; }

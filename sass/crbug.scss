@@ -98,6 +98,9 @@
 /* Search box autocomplete selection */ #ac-list .selected {
   background-color: $lightBlue !important;
 }
+/* Search results header */ .results th, .results_lite th {
+  background-color: $lightBlue !important;
+}
 /* Page links */ a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
   color: $darkBlue - 20 !important;
 } 

@@ -14,15 +14,22 @@
   line-height: 1.3em !important;
 }
 
+/* Blame layer */ .f-g {
+  @include codefont;
+  line-height: 1.3em !important;
+  font-size: 9pt !important;
+  color: $darkBlue !important;
+}
+
 /* Layout ----- */
 
-/* Chromium logo */ .l-d, .gwt-Image,
+/* Chromium logo */ .k-d, .gwt-Image,
 /* Chromium logo on home page */ .q-h,
 /* Search box button */ .button100,
 /* Button gradient */ .goog-button-base-top-shadow {
   display: none !important;
 }
-/* TD left of search box */ .l-e td:first-child {
+/* TD left of search box */ .k-e td:first-child {
   display: none !important;
 }
 /* Page border (Code page) */ #browse {
@@ -36,64 +43,65 @@
 
 /* Colors ----- */
 
-/* Header */ .l-e {
+/* Header */ .k-e {
   background-color: $darkBlue !important;
   margin: 0px !important;
   height: 27px !important;
 }
 
-/* Search box */ .k-o {
+/* Search box */ .j-o {
   background-color: $lightBlue !important;
   color: black !important;
   border: 0px !important;
 }
+/* Selection color in seach box */ .j-o::selection {
+  background: white !important;
+}
 /* Breadcrumb bar */ .t-c, #breadcrumbs,
-/* Search results bar */ .w-c {
+/* Search results bar */ .cb-a {
   background-color: $lightBlue !important;
   margin: 0px !important;
 }
 /* Button background */ .goog-button-base-inner-box {
   background: $lightGray !important;
 }
-/* XRefs top header */ .A-n {
+/* XRefs top header */ .gwt-TabLayoutPanelTabs-outer {
   background-color: $lightGray !important;
   border-top: solid 1px $lightBlue !important;
   border-bottom: solid 1px $lightBlue !important;
 }
-/* XRefs subheaders */ .A-b, .H-b,
-/* Search results breadcrumbs */ .X-a {
+/* XRefs subheaders */ .C-o, .C-a,
+/* Search results metadata */ .w-c,
+/* Search results breadcrumbs */ .C-h {
   background-color: $lightGray !important;
 }
-/* XRefs line numbers */ .A-j, .ab-l:link, .ab-l:active, .ab-l:visited, .ab-l:hover {
+/* XRefs line numbers */ .C-j, .ab-l:link, .ab-l:active, .ab-l:visited, .ab-l:hover {
   color: $darkGray !important;
 }
-/* Search results "Show N matches" */ .sb-d {
+/* Search results "Show N matches" */ .yb-d {
   color: black !important;
 }
 /* Outer border margin (Code page) */ #browsecontent,
-/* Outer border margin (Search results page) */ .x-i, .w-c {
+/* Outer border margin (Search results page) */ .x-i, .w-c {  /* TODO */
   margin: 0px !important;
   border: 0px !important;
 }
 /* Filename bar */ .content-header,
-/* Navigation header */ .gwt-TabLayoutPanelTabs-outer {
+/* Navigation header */ .fb-h {
   background-color: $lightGray !important;
   border-bottom: solid 1px $lightBlue !important;
 }
-/* Scroll gutter */ .g-Nb, .pagerContainer {
+/* Scroll gutter */ .f-Nb, .pagerContainer {
   background: $lightGray !important;
 }
-/* Line highlight */ .g-Tb,
-/* Navigation line highlight */ .g-Sb {
+/* Line highlight */ .f-Ub,
+/* Navigation line highlight */ .f-hb {
   background-color: $lightBlue !important;
 }
 /* Selection color */ ::selection {
   background: $lightBlue + 20 !important;
 }
-/* Selection color in seach box */ .k-o::selection {
-  background: white !important;
-}
-/* Cross-reference highlight */ .g-L {
+/* Cross-reference highlight */ .g-L {  /* TODO */
   background-color: #fe9 !important;
   border-radius: 10px !important;
 }
@@ -101,7 +109,7 @@
 /* HDragger */ #bottompanel_drag {
   background-color: $lightBlue !important;    
 }
-/* Home page background */ .q-c {
+/* Home page background */ .p-c {
   background-color: $lightGray !important;
   width: 100% !important;
   height: 100% !important;
@@ -110,11 +118,17 @@
   height: 100% !important;
   max-height: 100% !important;
 }
-/* Home page title font */ .q-k {
+/* Home page title font */ .q-k { /* TODO */
   color: $darkBlue !important;
 }
-/* Home page search box */ .q-j > .k-c > .k-o {
+/* Home page search box */ .p-j > .j-c > .j-o {
   background-color: white !important;
   border: 1px solid $lightBlue !important;
+}
+/* Selection color in seach box */ .p-j > .j-c > .j-o::selection {
+  background: $lightBlue !important;
+}
+/* Blame line shading */ .f-f {
+  background-color: $lightGray !important;
 }
 
