@@ -9,7 +9,7 @@
 }
 
 /* Line numbers */ .lineNumberContainer,
-/* XRefs text */ .A-m>a {
+/* XRefs text */ .C-m>a {
   @include codefont;
   line-height: 1.3em !important;
 }
@@ -23,13 +23,13 @@
 
 /* Layout ----- */
 
-/* Chromium logo */ .k-d, .gwt-Image,
+/* Chromium logo */ .l-d, .gwt-Image,
 /* Chromium logo on home page */ .q-h,
 /* Search box button */ .button100,
 /* Button gradient */ .goog-button-base-top-shadow {
   display: none !important;
 }
-/* TD left of search box */ .k-e td:first-child {
+/* TD left of search box */ .l-e td:first-child {
   display: none !important;
 }
 /* Page border (Code page) */ #browse {
@@ -43,18 +43,18 @@
 
 /* Colors ----- */
 
-/* Header */ .k-e {
+/* Header */ .l-e {
   background-color: $darkBlue !important;
   margin: 0px !important;
   height: 27px !important;
 }
 
-/* Search box */ .j-o {
+/* Search box */ .k-o {
   background-color: $lightBlue !important;
   color: black !important;
   border: 0px !important;
 }
-/* Selection color in seach box */ .j-o::selection {
+/* Selection color in seach box */ .k-o::selection {
   background: white !important;
 }
 /* Breadcrumb bar */ .t-c, #breadcrumbs,
@@ -65,12 +65,12 @@
 /* Button background */ .goog-button-base-inner-box {
   background: $lightGray !important;
 }
-/* XRefs top header */ .gwt-TabLayoutPanelTabs-outer {
+/* XRefs top header */ .cs-TabLayoutPanelTabs {
   background-color: $lightGray !important;
   border-top: solid 1px $lightBlue !important;
   border-bottom: solid 1px $lightBlue !important;
 }
-/* XRefs subheaders */ .C-o, .C-a,
+/* XRefs subheaders */ .C-n, .C-b,
 /* Search results metadata */ .w-c,
 /* Search results breadcrumbs */ .C-h {
   background-color: $lightGray !important;
@@ -91,17 +91,17 @@
   background-color: $lightGray !important;
   border-bottom: solid 1px $lightBlue !important;
 }
-/* Scroll gutter */ .f-Nb, .pagerContainer {
+/* Scroll gutter */ .f-kb, .pagerContainer {
   background: $lightGray !important;
 }
-/* Line highlight */ .f-Ub,
+/* Line highlight */ .f-rb,
 /* Navigation line highlight */ .f-hb {
   background-color: $lightBlue !important;
 }
 /* Selection color */ ::selection {
   background: $lightBlue + 20 !important;
 }
-/* Cross-reference highlight */ .g-L {  /* TODO */
+/* Cross-reference highlight */ .f-L {
   background-color: #fe9 !important;
   border-radius: 10px !important;
 }
@@ -118,14 +118,14 @@
   height: 100% !important;
   max-height: 100% !important;
 }
-/* Home page title font */ .q-k { /* TODO */
+/* Home page title font */ .p-k {
   color: $darkBlue !important;
 }
-/* Home page search box */ .p-j > .j-c > .j-o {
+/* Home page search box */ .p-j > .k-c > .k-o {
   background-color: white !important;
   border: 1px solid $lightBlue !important;
 }
-/* Selection color in seach box */ .p-j > .j-c > .j-o::selection {
+/* Selection color in seach box */ .p-j > .k-c > .k-o::selection {
   background: $lightBlue !important;
 }
 /* Blame line shading */ .f-f {
