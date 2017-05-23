@@ -25,6 +25,11 @@
        "js": [ "fonts.js" ],
        "css": [ "codereview.css" ],
        "run_at": "document_start"
+     },
+     {
+       "matches": [ "*://codereview.chromium.org/*" ],
+       "js": [ "utc-to-local-time.js" ],
+       "run_at": "document_end"
      }
    ],
    "description": "Style refresh for several Chromium development websites.",
