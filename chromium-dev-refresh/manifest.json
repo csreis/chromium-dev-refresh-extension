@@ -1,5 +1,5 @@
 {
-   "content_scripts": [ 
+   "content_scripts": [
      {
        "matches": [ "*://cs.chromium.org/*" ],
        "js": [ "fonts.js" ],
@@ -35,5 +35,5 @@
    "description": "Style refresh for several Chromium development websites.",
    "manifest_version": 2,
    "name": "Chromium Dev Refresh",
-   "version": "0.3.0"
+   "version": "0.3.1"
 }

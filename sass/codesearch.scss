@@ -9,7 +9,7 @@
 }
 
 /* Line numbers */ .lineNumberContainer,
-/* XRefs text */ .C-m>a {
+/* XRefs text */ .E-j {
   @include codefont;
   line-height: 1.3em !important;
 }
@@ -23,13 +23,13 @@
 
 /* Layout ----- */
 
-/* Chromium logo */ .l-d, .gwt-Image,
-/* Chromium logo on home page */ .q-h,
+/* Chromium logo */ .l-f, .gwt-Image,
+/* Chromium logo on home page */ .q-i,
 /* Search box button */ .button100,
 /* Button gradient */ .goog-button-base-top-shadow {
   display: none !important;
 }
-/* TD left of search box */ .l-e td:first-child {
+/* TD left of search box */ .l-g td:first-child {
   display: none !important;
 }
 /* Page border (Code page) */ #browse {
@@ -37,13 +37,16 @@
   margin: 0px !important;
 }
 /* Breadcrumb bar (Code page) */ body>div#browse:nth-child(4),
-/* Breadcrumb bar (Search results page) */ body>div#results:nth-child(3) {
+/* Breadcrumb bar (Search results page)  body>div#results:nth-child(3) {
   top: 27px !important;
+}*/
+/* Sandbar header */ #sandbar {
+  height: 27px !important;
 }
 
 /* Colors ----- */
 
-/* Header */ .l-e {
+/* Header */ .l-g {
   background-color: $darkBlue !important;
   margin: 0px !important;
   height: 27px !important;
@@ -57,8 +60,8 @@
 /* Selection color in seach box */ .k-o::selection {
   background: white !important;
 }
-/* Breadcrumb bar */ .t-c, #breadcrumbs,
-/* Search results bar */ .cb-a {
+/* Breadcrumb bar */ .v-c, #breadcrumbs,
+/* Search results bar */ .y-c {
   background-color: $lightBlue !important;
   margin: 0px !important;
 }
@@ -70,24 +73,23 @@
   border-top: solid 1px $lightBlue !important;
   border-bottom: solid 1px $lightBlue !important;
 }
-/* XRefs subheaders */ .C-n, .C-b,
-/* Search results metadata */ .w-c,
-/* Search results breadcrumbs */ .C-h {
+/* XRefs subheaders */ .E-n, .E-b,
+/* Search results breadcrumbs */ .eb-a {
   background-color: $lightGray !important;
 }
-/* XRefs line numbers */ .C-j, .ab-l:link, .ab-l:active, .ab-l:visited, .ab-l:hover {
+/* XRefs line numbers */ .E-j, .ab-l:link, .ab-l:active, .ab-l:visited, .ab-l:hover {
   color: $darkGray !important;
 }
-/* Search results "Show N matches" */ .yb-d {
+/* Search results "Show N matches" */ .zb-d {
   color: black !important;
 }
 /* Outer border margin (Code page) */ #browsecontent,
-/* Outer border margin (Search results page) */ .x-i, .w-c {  /* TODO */
+/* Outer border margin (Search results page) */ .z-i {
   margin: 0px !important;
   border: 0px !important;
 }
-/* Filename bar */ .content-header,
-/* Navigation header */ .fb-h {
+/* Filename bar */ .content-header, .hb-g, .hb-a,
+/* Navigation header */ .j-a {
   background-color: $lightGray !important;
   border-bottom: solid 1px $lightBlue !important;
 }
@@ -99,7 +101,7 @@
   background-color: $lightBlue !important;
 }
 /* Selection color */ ::selection {
-  background: $lightBlue + 20 !important;
+  background: adjust-color($lightBlue, $red: +20, $green: +20, $blue: +20) !important;
 }
 /* Cross-reference highlight */ .f-L {
   background-color: #fe9 !important;
@@ -107,7 +109,7 @@
 }
 /* VDragger */ #leftpanel_drag,
 /* HDragger */ #bottompanel_drag {
-  background-color: $lightBlue !important;    
+  background-color: $lightBlue !important;
 }
 /* Home page background */ .p-c {
   background-color: $lightGray !important;
@@ -118,14 +120,14 @@
   height: 100% !important;
   max-height: 100% !important;
 }
-/* Home page title font */ .p-k {
+/* Home page title font */ .q-l {
   color: $darkBlue !important;
 }
-/* Home page search box */ .p-j > .k-c > .k-o {
+/* Home page search box */ .q-k > .k-c > .k-o {
   background-color: white !important;
   border: 1px solid $lightBlue !important;
 }
-/* Selection color in seach box */ .p-j > .k-c > .k-o::selection {
+/* Selection color in seach box */ .q-k > .k-c > .k-o::selection {
   background: $lightBlue !important;
 }
 /* Blame line shading */ .f-f {

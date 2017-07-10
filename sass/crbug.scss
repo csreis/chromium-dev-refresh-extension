@@ -34,7 +34,7 @@
 /* Above issue title */ body.t3 {
   margin: 0px !important;
 }
-/* Right of issue title */ 
+/* Right of issue title */
 #meta-container > tbody > tr:nth-child(1) > td.vt.issueheader,
 #meta-container > tbody > tr:nth-child(2) > td:nth-child(3) {
   border-right: 0px !important;
@@ -86,10 +86,10 @@
   @include buttonstyle;
 }
 /* Google Buttons (hover) */ .buttonify:hover {
-  background: $lightGray + 20 !important;
+  background: adjust-color($lightGray, $red: +20, $green: +20, $blue: +20) !important;
 }
 /* Google Buttons (focus) */ .buttonify:focus {
-  background: $lightGray - 20 !important;
+  background: adjust-color($lightGray, $red: -20, $green: -20, $blue: -20) !important;
 }
 /* Search box autocomplete */ #ac-list {
   color: $darkBlue !important;
@@ -102,21 +102,21 @@
   background-color: $lightBlue !important;
 }
 /* Page links */ a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
-  color: $darkBlue - 20 !important;
-} 
+  color: adjust-color($darkBlue, $red: -20, $green: -20, $blue: -20) !important;
+}
 /* Issue title */ #issueheader td, td.issueheader, .issuemetaheader,
 /* Tips */ .tip {
   background: $lightBlue !important;
 }
-/* Issue title for closed bugs */ 
-.closed_colors #issueheader td, 
-.closed_colors td.issueheader, 
+/* Issue title for closed bugs */
+.closed_colors #issueheader td,
+.closed_colors td.issueheader,
 .closed_colors .issuemetaheader, {
-  background: $lightGray - 20 !important;
+  background: adjust-color($lightGray, $red: -20, $green: -20, $blue: -20) !important;
   color: black !important;
 }
 /* Status updates for closed bugs */ .closed_colors .updates, .closed_colors td.issueheader a {
-  background: $lightGray - 20 !important;
+  background: adjust-color($lightGray, $red: -20, $green: -20, $blue: -20) !important;
 }
 /* Sidebar */ #issuemeta {
   padding-left: 3px !important;
@@ -136,7 +136,7 @@
   background: $lightGray !important;
   border-radius: 5px !important;
   padding: 3px !important;
-} 
+}
 /* Add a comment header */ div.h4 {
   background-color: $lightBlue !important;
   border-top: 1px solid $darkBlue !important;

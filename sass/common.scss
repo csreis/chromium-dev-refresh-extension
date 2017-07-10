@@ -35,9 +35,9 @@ $darkGray: #cacaca;
 }
 /* Submit buttons (hover) */ input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover,
 /* Select menus (hover) */ select:hover {
-  background: $lightGray + 20 !important;
+background: adjust-color($lightGray, $red: +20, $green: +20, $blue: +20) !important;
 }
 /* Submit buttons (focus) */ input[type=submit]:focus, input[type=reset]:focus, input[type=button]:focus,
 /* Select menus (focus) */ select:focus {
-  background: $lightGray - 20 !important;
+  background: adjust-color($lightGray, $red: -20, $green: -20, $blue: -20) !important;
 }

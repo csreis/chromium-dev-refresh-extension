@@ -39,7 +39,7 @@ pre, xmp, plaintext, listing {
 
 /* Line numbers */
 .lineNumberContainer,
-.C-m > a {
+.E-j {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important;
   line-height: 1.3em !important; }
@@ -54,14 +54,14 @@ pre, xmp, plaintext, listing {
 
 /* Layout ----- */
 /* Chromium logo */
-.l-d, .gwt-Image,
-.q-h,
+.l-f, .gwt-Image,
+.q-i,
 .button100,
 .goog-button-base-top-shadow {
   display: none !important; }
 
 /* TD left of search box */
-.l-e td:first-child {
+.l-g td:first-child {
   display: none !important; }
 
 /* Page border (Code page) */
@@ -71,12 +71,12 @@ pre, xmp, plaintext, listing {
 
 /* Breadcrumb bar (Code page) */
 body > div#browse:nth-child(4),
-body > div#results:nth-child(3) {
-  top: 27px !important; }
+#sandbar {
+  height: 27px !important; }
 
 /* Colors ----- */
 /* Header */
-.l-e {
+.l-g {
   background-color: #5a8cd6 !important;
   margin: 0px !important;
   height: 27px !important; }
@@ -92,8 +92,8 @@ body > div#results:nth-child(3) {
   background: white !important; }
 
 /* Breadcrumb bar */
-.t-c, #breadcrumbs,
-.cb-a {
+.v-c, #breadcrumbs,
+.y-c {
   background-color: #a4c9f3 !important;
   margin: 0px !important; }
 
@@ -108,29 +108,27 @@ body > div#results:nth-child(3) {
   border-bottom: solid 1px #a4c9f3 !important; }
 
 /* XRefs subheaders */
-.C-n, .C-b,
-.w-c,
-.C-h {
+.E-n, .E-b,
+.eb-a {
   background-color: #f6f6f5 !important; }
 
 /* XRefs line numbers */
-.C-j, .ab-l:link, .ab-l:active, .ab-l:visited, .ab-l:hover {
+.E-j, .ab-l:link, .ab-l:active, .ab-l:visited, .ab-l:hover {
   color: #cacaca !important; }
 
 /* Search results "Show N matches" */
-.yb-d {
+.zb-d {
   color: black !important; }
 
 /* Outer border margin (Code page) */
 #browsecontent,
-.x-i, .w-c {
-  /* TODO */
+.z-i {
   margin: 0px !important;
   border: 0px !important; }
 
 /* Filename bar */
-.content-header,
-.fb-h {
+.content-header, .hb-g, .hb-a,
+.j-a {
   background-color: #f6f6f5 !important;
   border-bottom: solid 1px #a4c9f3 !important; }
 
@@ -169,16 +167,16 @@ div#home {
   max-height: 100% !important; }
 
 /* Home page title font */
-.p-k {
+.q-l {
   color: #5a8cd6 !important; }
 
 /* Home page search box */
-.p-j > .k-c > .k-o {
+.q-k > .k-c > .k-o {
   background-color: white !important;
   border: 1px solid #a4c9f3 !important; }
 
 /* Selection color in seach box */
-.p-j > .k-c > .k-o::selection {
+.q-k > .k-c > .k-o::selection {
   background: #a4c9f3 !important; }
 
 /* Blame line shading */
