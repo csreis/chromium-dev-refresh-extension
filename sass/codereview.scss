@@ -31,7 +31,7 @@
 
 body {
   margin: 0px;
-} 
+}
 /* Menu at top (except search) */ .mainmenu a:nth-child(1),
 /* Counter under signin */ .counter,
 /* Issue links (except my issues) */ .mainmenu2 :nth-child(n+2),
@@ -91,6 +91,7 @@ body {
 }
 /* Issue header on issue list */ body > div:nth-child(8) > h2 {
   display: block !important;
+  padding-bottom: 1px !important;
 }
 /* Delete drafts form */ body > div:nth-child(8) > table > tbody > tr > td:nth-child(2) > form[action$="delete_drafts"] {
   text-align: right !important;
