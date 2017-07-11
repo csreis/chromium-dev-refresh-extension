@@ -1,0 +1,117 @@
+/* ---- Code Review CSS ---- */
+
+@import "common.scss";
+
+/* Fonts ----- */
+
+/* CL Description */ #gr-linked-text,
+/* Comments in code */ .gr-formatted-text-0 {
+  @include codefont;
+}
+/* Code review area */ .gr-diff-1 .diffContainer.gr-diff,
+/* Code itself */ .gr-diff-1 .content.gr-diff,
+/* Line numbers */ .gr-diff-1 .lineNum.gr-diff {
+  @include codefont;
+}
+
+/* Layout ----- */
+
+body {
+  margin: 0px;
+}
+/* Chromium Project logo */ .bigTitle.style-scope.gr-main-header,
+/* Changes menu */ #mainHeader > nav > ul > li:nth-child(1),
+/* Documentation menu */ #mainHeader > nav > ul > li:nth-child(3),
+/* More */ #mainHeader > nav > ul > li:nth-child(5),
+/* Search button */ #searchButton,
+/* Powered by Gerrit */ #app > footer > div:nth-child(1) {
+  display: none !important;
+}
+/* Header border */ .gr-main-header-1 gr-dropdown.gr-main-header,
+/* Menu button */ .gr-button[link].gr-dropdown {
+  padding: 0px !important;
+}
+/* Search box */ .gr-main-header-1 gr-search-bar.gr-main-header {
+  max-width: 400px;
+}
+/* Comment box */ .gr-diff-comment-0 {
+  padding: 5px !important;
+}
+/* Comment box content */ .gr-diff-comment-0 .header.gr-diff-comment {
+  margin-bottom: 0px !important;
+}
+/* Buttons */ .gr-button-0 {
+  font-size: 8pt !important;
+  padding: 5px !important;
+}
+
+/* Colors ----- */
+
+/* Header */ body > .gr-app-1 gr-main-header.gr-app,
+/* Header links */ .gr-app-1 gr-main-header.gr-app a,
+/* Header menus */ .linksTitle.style-scope.gr-main-header {
+  background: $darkBlue !important;
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 2px !important;
+  color: white !important;
+}
+/* Search box */ #searchInput, #searchInput > input {
+  background-color: $lightBlue !important;
+  color: black !important;
+  border: 0px !important;
+  border-radius: 0px !important;
+}
+/* Issue title */ .header.style-scope.gr-change-view,
+/* Issue list header */ .topHeader.gr-change-list {
+  background: $lightBlue !important;
+  width: 100% !important;
+  margin: 0px !important;
+  padding: 7px !important;
+/*  font-size: 12pt !important; */
+}
+/* Per-file issue header */ .gr-diff-view-0 header.gr-diff-view {
+  background: $lightBlue !important;
+}
+/* Sidebar table border */ .issue-details {
+  border-spacing: 0px !important;
+}
+/* Sidebar */ .changeInfo-column.changeMetadata.style-scope.gr-change-view {
+  background-color: $lightGray !important;
+  border-right: 2px solid $lightBlue !important;
+  border-bottom: 2px solid $lightBlue !important;
+}
+/* Publish header */ .issue-details h2,
+/* Draft comments */ .description,
+/* Draft CL comment */ #reviewmsgdlg {
+  background-color: $lightGray !important;
+}
+/* List of issues */ .issue-list {
+  background-color: $lightGray !important;
+  border: 1px solid $lightBlue !important;
+  -webkit-border-radius: 0px !important;
+}
+/* Issue list headers */ .issue-list .header {
+  background-color: $lightGray !important;
+  border: 0px !important;
+}
+
+/* Show common lines */ .gr-diff-1 .contextControl.gr-diff {
+  background-color: $lightGray !important;
+  color: black !important;
+}
+/* Includes */ .gr-diff-1 .gr-syntax-meta.gr-diff {
+  color: darkred !important;
+}
+/* Comment box */ .gr-diff-comment-thread-0 #container.gr-diff-comment-thread {
+  background-color: $lightGray !important;
+}
+/* Unresolved comment box */ .gr-diff-comment-thread-0 #container.unresolved.gr-diff-comment-thread {
+  background-color: adjust-color($lightGray, $red: -10, $green: -10, $blue: -10) !important;
+}
+/* Comment box highlight */ .gr-diff-1 .diff-row.target-row.target-side-left.gr-diff .lineNum.left.gr-diff, .gr-diff-1 .diff-row.target-row.target-side-right.gr-diff .lineNum.right.gr-diff, .gr-diff-1 .diff-row.target-row.unified.gr-diff .lineNum.gr-diff {
+  background-color: $lightBlue !important;
+}
+/* Footer */ .gr-app-1 footer.gr-app {
+  background-color: $lightBlue !important;
+}
