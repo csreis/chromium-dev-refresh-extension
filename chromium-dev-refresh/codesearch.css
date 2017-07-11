@@ -4,7 +4,7 @@
 /* Fonts */
 /* Default fonts */
 body, input, textarea,
-.goog-button-base {
+.goog-button-base, .gr-button-0 {
   font-family: "Roboto", "Gill Sans", "Sans Serif" !important; }
 
 /* Monospaced fonts */

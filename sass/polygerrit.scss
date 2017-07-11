@@ -5,13 +5,19 @@
 /* Fonts ----- */
 
 /* CL Description */ #gr-linked-text,
-/* Comments in code */ .gr-formatted-text-0 {
-  @include codefont;
-}
+/* CL Comments */ .gr-formatted-text,
+/* Comments in code */ .gr-formatted-text-0,
 /* Code review area */ .gr-diff-1 .diffContainer.gr-diff,
 /* Code itself */ .gr-diff-1 .content.gr-diff,
 /* Line numbers */ .gr-diff-1 .lineNum.gr-diff {
   @include codefont;
+}
+
+/* Inline code review area */ .gr-diff-0 .diffContainer.gr-diff,
+/* Code itself */ .gr-diff-0 .content.gr-diff,
+/* Line numbers */ .gr-diff-0 .lineNum.gr-diff {
+  @include codefont;
+  font-size: 9.5pt !important;
 }
 
 /* Layout ----- */
@@ -34,6 +40,9 @@ body {
 /* Search box */ .gr-main-header-1 gr-search-bar.gr-main-header {
   max-width: 400px;
 }
+/* CL title */ .gr-fixed-panel-2 {
+  min-height: 35px !important;
+}
 /* Comment box */ .gr-diff-comment-0 {
   padding: 5px !important;
 }
@@ -42,6 +51,21 @@ body {
 }
 /* Buttons */ .gr-button-0 {
   font-size: 8pt !important;
+  padding: 5px !important;
+}
+/* Button drop-down */ gr-dropdown[down-arrow] .dropdown-trigger.gr-dropdown {
+  padding-right: 1.4em !important;
+}
+/* CL comments */ .gr-formatted-text {
+  margin: 0 0 0.7em 0 !important;
+}
+/* CL comment container */ .contentContainer {
+  padding: 7px 0 !important;
+}
+/* CL comment list */ .container.gr-comment-list {
+  margin: 0px !important;
+}
+/* CL comment reply button */ .replyContainer {
   padding: 5px !important;
 }
 
@@ -62,13 +86,14 @@ body {
   border: 0px !important;
   border-radius: 0px !important;
 }
-/* Issue title */ .header.style-scope.gr-change-view,
-/* Issue list header */ .topHeader.gr-change-list {
+/* Issue title */ .header.style-scope.gr-change-view {
   background: $lightBlue !important;
   width: 100% !important;
   margin: 0px !important;
   padding: 7px !important;
-/*  font-size: 12pt !important; */
+}
+/* Issue list header */ .topHeader.gr-change-list {
+  background: $lightBlue !important;
 }
 /* Per-file issue header */ .gr-diff-view-0 header.gr-diff-view {
   background: $lightBlue !important;
@@ -81,28 +106,34 @@ body {
   border-right: 2px solid $lightBlue !important;
   border-bottom: 2px solid $lightBlue !important;
 }
-/* Publish header */ .issue-details h2,
-/* Draft comments */ .description,
-/* Draft CL comment */ #reviewmsgdlg {
+/* CL comments header */ .gr-messages-list-0 #messageControlsContainer.gr-messages-list {
   background-color: $lightGray !important;
-}
-/* List of issues */ .issue-list {
-  background-color: $lightGray !important;
-  border: 1px solid $lightBlue !important;
-  -webkit-border-radius: 0px !important;
-}
-/* Issue list headers */ .issue-list .header {
-  background-color: $lightGray !important;
-  border: 0px !important;
 }
 
 /* Show common lines */ .gr-diff-1 .contextControl.gr-diff {
   background-color: $lightGray !important;
   color: black !important;
 }
-/* Includes */ .gr-diff-1 .gr-syntax-meta.gr-diff {
+/* Includes */ .gr-diff-1 .gr-syntax-meta.gr-diff, .gr-diff-0 .gr-syntax-meta.gr-diff {
   color: darkred !important;
 }
+/* Lighter insertion green */ .gr-diff-1 .content.add.gr-diff,
+.gr-diff-0 .content.add.gr-diff {
+  background-color: #cff9cf !important;
+}
+/* Darker insertion green */ .gr-diff-1 .content.add.gr-diff .intraline.gr-diff, .gr-diff-1 .delta.total.gr-diff .content.add.gr-diff,
+.gr-diff-0 .content.add.gr-diff .intraline.gr-diff, .gr-diff-0 .delta.total.gr-diff .content.add.gr-diff {
+  background-color: rgba(0, 255, 0, 0.25) !important;
+}
+/* Lighter deletion red */ .gr-diff-1 .content.remove.gr-diff,
+.gr-diff-0 .content.remove.gr-diff {
+  background-color: #f9dddd !important;
+}
+/* Darker insertion red */ .gr-diff-1 .content.remove.gr-diff .intraline.gr-diff, .gr-diff-1 .delta.total.gr-diff .content.remove.gr-diff,
+.gr-diff-0 .content.remove.gr-diff .intraline.gr-diff, .gr-diff-0 .delta.total.gr-diff .content.remove.gr-diff {
+  background-color: rgba(255, 0, 0, 0.2) !important;
+}
+
 /* Comment box */ .gr-diff-comment-thread-0 #container.gr-diff-comment-thread {
   background-color: $lightGray !important;
 }

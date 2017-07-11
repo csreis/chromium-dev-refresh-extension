@@ -4,7 +4,7 @@
 /* Fonts */
 /* Default fonts */
 body, input, textarea,
-.goog-button-base {
+.goog-button-base, .gr-button-0 {
   font-family: "Roboto", "Gill Sans", "Sans Serif" !important; }
 
 /* Monospaced fonts */
@@ -35,16 +35,21 @@ select:focus {
 /* Fonts ----- */
 /* CL Description */
 #gr-linked-text,
-.gr-formatted-text-0 {
-  font-family: "Ubuntu Mono", "Monaco" !important;
-  font-size: 10pt !important; }
-
-/* Code review area */
+.gr-formatted-text,
+.gr-formatted-text-0,
 .gr-diff-1 .diffContainer.gr-diff,
 .gr-diff-1 .content.gr-diff,
 .gr-diff-1 .lineNum.gr-diff {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important; }
+
+/* Inline code review area */
+.gr-diff-0 .diffContainer.gr-diff,
+.gr-diff-0 .content.gr-diff,
+.gr-diff-0 .lineNum.gr-diff {
+  font-family: "Ubuntu Mono", "Monaco" !important;
+  font-size: 10pt !important;
+  font-size: 9.5pt !important; }
 
 /* Layout ----- */
 body {
@@ -68,6 +73,10 @@ body {
 .gr-main-header-1 gr-search-bar.gr-main-header {
   max-width: 400px; }
 
+/* CL title */
+.gr-fixed-panel-2 {
+  min-height: 35px !important; }
+
 /* Comment box */
 .gr-diff-comment-0 {
   padding: 5px !important; }
@@ -79,6 +88,26 @@ body {
 /* Buttons */
 .gr-button-0 {
   font-size: 8pt !important;
+  padding: 5px !important; }
+
+/* Button drop-down */
+gr-dropdown[down-arrow] .dropdown-trigger.gr-dropdown {
+  padding-right: 1.4em !important; }
+
+/* CL comments */
+.gr-formatted-text {
+  margin: 0 0 0.7em 0 !important; }
+
+/* CL comment container */
+.contentContainer {
+  padding: 7px 0 !important; }
+
+/* CL comment list */
+.container.gr-comment-list {
+  margin: 0px !important; }
+
+/* CL comment reply button */
+.replyContainer {
   padding: 5px !important; }
 
 /* Colors ----- */
@@ -100,13 +129,15 @@ body > .gr-app-1 gr-main-header.gr-app,
   border-radius: 0px !important; }
 
 /* Issue title */
-.header.style-scope.gr-change-view,
-.topHeader.gr-change-list {
+.header.style-scope.gr-change-view {
   background: #a4c9f3 !important;
   width: 100% !important;
   margin: 0px !important;
-  padding: 7px !important;
-  /*  font-size: 12pt !important; */ }
+  padding: 7px !important; }
+
+/* Issue list header */
+.topHeader.gr-change-list {
+  background: #a4c9f3 !important; }
 
 /* Per-file issue header */
 .gr-diff-view-0 header.gr-diff-view {
@@ -122,22 +153,9 @@ body > .gr-app-1 gr-main-header.gr-app,
   border-right: 2px solid #a4c9f3 !important;
   border-bottom: 2px solid #a4c9f3 !important; }
 
-/* Publish header */
-.issue-details h2,
-.description,
-#reviewmsgdlg {
+/* CL comments header */
+.gr-messages-list-0 #messageControlsContainer.gr-messages-list {
   background-color: #f6f6f5 !important; }
-
-/* List of issues */
-.issue-list {
-  background-color: #f6f6f5 !important;
-  border: 1px solid #a4c9f3 !important;
-  -webkit-border-radius: 0px !important; }
-
-/* Issue list headers */
-.issue-list .header {
-  background-color: #f6f6f5 !important;
-  border: 0px !important; }
 
 /* Show common lines */
 .gr-diff-1 .contextControl.gr-diff {
@@ -145,8 +163,28 @@ body > .gr-app-1 gr-main-header.gr-app,
   color: black !important; }
 
 /* Includes */
-.gr-diff-1 .gr-syntax-meta.gr-diff {
+.gr-diff-1 .gr-syntax-meta.gr-diff, .gr-diff-0 .gr-syntax-meta.gr-diff {
   color: darkred !important; }
+
+/* Lighter insertion green */
+.gr-diff-1 .content.add.gr-diff,
+.gr-diff-0 .content.add.gr-diff {
+  background-color: #cff9cf !important; }
+
+/* Darker insertion green */
+.gr-diff-1 .content.add.gr-diff .intraline.gr-diff, .gr-diff-1 .delta.total.gr-diff .content.add.gr-diff,
+.gr-diff-0 .content.add.gr-diff .intraline.gr-diff, .gr-diff-0 .delta.total.gr-diff .content.add.gr-diff {
+  background-color: rgba(0, 255, 0, 0.25) !important; }
+
+/* Lighter deletion red */
+.gr-diff-1 .content.remove.gr-diff,
+.gr-diff-0 .content.remove.gr-diff {
+  background-color: #f9dddd !important; }
+
+/* Darker insertion red */
+.gr-diff-1 .content.remove.gr-diff .intraline.gr-diff, .gr-diff-1 .delta.total.gr-diff .content.remove.gr-diff,
+.gr-diff-0 .content.remove.gr-diff .intraline.gr-diff, .gr-diff-0 .delta.total.gr-diff .content.remove.gr-diff {
+  background-color: rgba(255, 0, 0, 0.2) !important; }
 
 /* Comment box */
 .gr-diff-comment-thread-0 #container.gr-diff-comment-thread {
