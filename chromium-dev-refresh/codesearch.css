@@ -5,12 +5,14 @@
 /* Default fonts */
 body, input, textarea,
 .goog-button-base, .gr-button-0 {
-  font-family: "Roboto", "Gill Sans", "Sans Serif" !important; }
+  font-family: "Roboto", "Gill Sans", "Sans Serif" !important;
+}
 
 /* Monospaced fonts */
 pre, xmp, plaintext, listing {
   font-family: "Ubuntu Mono", "Monaco" !important;
-  font-size: 10pt !important; }
+  font-size: 10pt !important;
+}
 
 /* Buttons */
 /* Submit buttons */
@@ -20,29 +22,34 @@ select {
   border: 1px solid #cacaca !important;
   border-radius: 0px !important;
   font-size: 9pt !important;
-  margin: 1px !important; }
+  margin: 1px !important;
+}
 
 /* Submit buttons (hover) */
 input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover,
 select:hover {
-  background: white !important; }
+  background: white !important;
+}
 
 /* Submit buttons (focus) */
 input[type=submit]:focus, input[type=reset]:focus, input[type=button]:focus,
 select:focus {
-  background: #e2e2e1 !important; }
+  background: #e2e2e1 !important;
+}
 
 /* Fonts ----- */
 /* Monospaced fonts */
 pre, xmp, plaintext, listing {
-  line-height: 1.3em !important; }
+  line-height: 1.3em !important;
+}
 
 /* Line numbers */
 .lineNumberContainer,
 .H-d, .lb-p {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important;
-  line-height: 1.3em !important; }
+  line-height: 1.3em !important;
+}
 
 /* Blame layer */
 .f-g {
@@ -50,7 +57,8 @@ pre, xmp, plaintext, listing {
   font-size: 10pt !important;
   line-height: 1.3em !important;
   font-size: 9pt !important;
-  color: #5a8cd6 !important; }
+  color: #5a8cd6 !important;
+}
 
 /* Layout ----- */
 /* Chromium logo */
@@ -58,140 +66,169 @@ pre, xmp, plaintext, listing {
 .s-i,
 .button100,
 .goog-button-base-top-shadow {
-  display: none !important; }
+  display: none !important;
+}
 
 /* TD left of search box */
 #sandbar > div > table > tbody > tr:nth-child(1) > td:nth-child(1),
 #sandbar > div > div > span:nth-child(2) {
-  display: none !important; }
+  display: none !important;
+}
 
 /* Page border (Code page) */
 #browse {
   border: 0px !important;
-  margin: 0px !important; }
+  margin: 0px !important;
+}
 
 /* Sandbar header */
 #sandbar {
-  height: 27px !important; }
+  height: 27px !important;
+}
 
 /* Colors ----- */
 /* Header */
 .m-j {
   background-color: #5a8cd6 !important;
   margin: 0px !important;
-  height: 27px !important; }
+  height: 27px !important;
+}
 
 /* Search box */
 .l-o {
   background-color: #a4c9f3 !important;
   color: black !important;
-  border: 0px !important; }
+  border: 0px !important;
+}
 
 /* Selection color in seach box */
 .l-o::selection {
-  background: white !important; }
+  background: white !important;
+}
 
 /* Corpus selection box */
 .di-kd-extra-div {
   position: fixed !important;
   top: 0px !important;
-  left: 430px !important; }
+  left: 430px !important;
+}
 
 /* Corpus selection caption */
 .m-e {
-  display: none !important; }
+  display: none !important;
+}
 
 .m-f {
-  color: white !important; }
+  color: white !important;
+}
 
 /* Breadcrumb bar */
 .x-c, #breadcrumbs,
 .B-e {
   background-color: #a4c9f3 !important;
-  margin: 0px !important; }
+  margin: 0px !important;
+}
 
 /* Button background */
 .goog-button-base-inner-box {
-  background: #f6f6f5 !important; }
+  background: #f6f6f5 !important;
+}
 
 /* XRefs top header */
 .cs-TabLayoutPanelTabs {
   background-color: #f6f6f5 !important;
   border-top: solid 1px #a4c9f3 !important;
-  border-bottom: solid 1px #a4c9f3 !important; }
+  border-bottom: solid 1px #a4c9f3 !important;
+}
 
 /* XRefs subheaders */
 .H-o, .H-b, .S-b,
 .nb-a {
-  background-color: #f6f6f5 !important; }
+  background-color: #f6f6f5 !important;
+}
 
 /* XRefs line numbers */
 .H-k, .lb-l, .ab-l:link, .ab-l:active, .ab-l:visited, .ab-l:hover {
-  color: #aaa !important; }
+  color: #aaa !important;
+}
 
 /* Search results "Show N matches" */
 .Hb-d {
-  color: black !important; }
+  color: black !important;
+}
 
 /* Outer border margin (Code page) */
 #browsecontent,
 .C-i {
   margin: 0px !important;
-  border: 0px !important; }
+  border: 0px !important;
+}
 
 /* Filename bar */
 .content-header, .qb-h.qb-a,
 .j-a {
   background-color: #f6f6f5 !important;
-  border-bottom: solid 1px #a4c9f3 !important; }
+  border-bottom: solid 1px #a4c9f3 !important;
+}
 
 /* Scroll gutter */
 .f-kb, .pagerContainer {
-  background: #f6f6f5 !important; }
+  background: #f6f6f5 !important;
+}
 
 /* Line highlight */
 .f-rb,
 .f-hb {
-  background-color: #a4c9f3 !important; }
+  background-color: #a4c9f3 !important;
+}
 
 /* Selection color */
 ::selection {
-  background: #b8ddff !important; }
+  background: #b8ddff !important;
+}
 
 /* Cross-reference highlight */
 .f-L {
   background-color: #fe9 !important;
-  border-radius: 10px !important; }
+  border-radius: 10px !important;
+}
 
 /* VDragger */
 #leftpanel_drag,
 #bottompanel_drag {
-  background-color: #a4c9f3 !important; }
+  background-color: #a4c9f3 !important;
+}
 
 /* Home page background */
 .p-c {
   background-color: #f6f6f5 !important;
   width: 100% !important;
-  height: 100% !important; }
+  height: 100% !important;
+}
 
 /* Home page background height */
 div#home {
   height: 100% !important;
-  max-height: 100% !important; }
+  max-height: 100% !important;
+}
 
 /* Home page title font */
 .s-l {
-  color: #5a8cd6 !important; }
+  color: #5a8cd6 !important;
+}
 
 /* Home page search box */
 .s-k > .l-c > .l-o {
   background-color: white !important;
-  border: 1px solid #a4c9f3 !important; }
+  border: 1px solid #a4c9f3 !important;
+}
 
 /* Selection color in seach box */
 .s-k > .l-c > .l-o::selection {
-  background: #a4c9f3 !important; }
+  background: #a4c9f3 !important;
+}
 
 /* Blame line shading */
 .f-f {
-  background-color: #f6f6f5 !important; }
+  background-color: #f6f6f5 !important;
+}

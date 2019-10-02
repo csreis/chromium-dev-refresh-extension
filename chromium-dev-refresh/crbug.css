@@ -5,12 +5,14 @@
 /* Default fonts */
 body, input, textarea,
 .goog-button-base, .gr-button-0 {
-  font-family: "Roboto", "Gill Sans", "Sans Serif" !important; }
+  font-family: "Roboto", "Gill Sans", "Sans Serif" !important;
+}
 
 /* Monospaced fonts */
 pre, xmp, plaintext, listing {
   font-family: "Ubuntu Mono", "Monaco" !important;
-  font-size: 10pt !important; }
+  font-size: 10pt !important;
+}
 
 /* Buttons */
 /* Submit buttons */
@@ -20,28 +22,33 @@ select {
   border: 1px solid #cacaca !important;
   border-radius: 0px !important;
   font-size: 9pt !important;
-  margin: 1px !important; }
+  margin: 1px !important;
+}
 
 /* Submit buttons (hover) */
 input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover,
 select:hover {
-  background: white !important; }
+  background: white !important;
+}
 
 /* Submit buttons (focus) */
 input[type=submit]:focus, input[type=reset]:focus, input[type=button]:focus,
 select:focus {
-  background: #e2e2e1 !important; }
+  background: #e2e2e1 !important;
+}
 
 /* Fonts ----- */
 /* Comment box */
 textarea#addCommentTextArea,
-textarea[name="comment"] {
+textarea[name=comment] {
   font-family: "Ubuntu Mono", "Monaco" !important;
-  font-size: 10pt !important; }
+  font-size: 10pt !important;
+}
 
 /* Issue header */
 .h3 {
-  font-family: "Roboto", "Gill Sans", "Sans Serif" !important; }
+  font-family: "Roboto", "Gill Sans", "Sans Serif" !important;
+}
 
 /* Layout ----- */
 /* Top banner (minus signin links) */
@@ -52,27 +59,32 @@ textarea[name="comment"] {
 .cuetip,
 #footer,
 .hostedBy {
-  display: none !important; }
+  display: none !important;
+}
 
 /* Issue title */
 #issueheader, .issuemetaheader {
   margin: 0px !important;
   padding: 5px !important;
   border: 0px !important;
-  background: #a4c9f3 !important; }
+  background: #a4c9f3 !important;
+}
 
 /* Above issue title */
 body.t3 {
-  margin: 0px !important; }
+  margin: 0px !important;
+}
 
 /* Right of issue title */
 #meta-container > tbody > tr:nth-child(1) > td.vt.issueheader,
 #meta-container > tbody > tr:nth-child(2) > td:nth-child(3) {
-  border-right: 0px !important; }
+  border-right: 0px !important;
+}
 
 /* Around main content area */
 #maincol, .issuepage td {
-  padding: 3px 0px 0px 0px !important; }
+  padding: 3px 0px 0px 0px !important;
+}
 
 /* Colors ----- */
 /* Sign in */
@@ -83,17 +95,20 @@ body.t3 {
   z-index: 1 !important;
   padding: 9px !important;
   margin: 0px !important;
-  font-size: 0pt !important; }
+  font-size: 0pt !important;
+}
 
 /* Sign in links */
 #gaia a {
   color: white !important;
   font-size: 10pt !important;
-  padding-left: 5px !important; }
+  padding-left: 5px !important;
+}
 
 /* Sign in link decoration */
 #gaia a:not(:hover) u {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+}
 
 /* Search bar */
 .subt,
@@ -101,7 +116,8 @@ body.t3 {
   background: #5a8cd6 !important;
   border: 0px !important;
   color: white !important;
-  font-weight: normal !important; }
+  font-weight: normal !important;
+}
 
 /* Search bar */
 .subt {
@@ -110,11 +126,13 @@ body.t3 {
   width: 100% !important;
   padding: 7px 7px 7px 14px !important;
   height: 21px !important;
-  font-size: 10pt !important; }
+  font-size: 10pt !important;
+}
 
 /* Search bar links */
 .subt a:link:not(.buttonify), .subt a:focus:not(.buttonify), .subt a:visited:not(.buttonify) {
-  color: #f6f6f5 !important; }
+  color: #f6f6f5 !important;
+}
 
 /* Google Buttons */
 .buttonify,
@@ -123,48 +141,58 @@ body.t3 {
   border: 1px solid #cacaca !important;
   border-radius: 0px !important;
   font-size: 9pt !important;
-  margin: 1px !important; }
+  margin: 1px !important;
+}
 
 /* Google Buttons (hover) */
 .buttonify:hover {
-  background: white !important; }
+  background: white !important;
+}
 
 /* Google Buttons (focus) */
 .buttonify:focus {
-  background: #e2e2e1 !important; }
+  background: #e2e2e1 !important;
+}
 
 /* Search box autocomplete */
 #ac-list {
   color: #5a8cd6 !important;
-  background-color: #f6f6f5 !important; }
+  background-color: #f6f6f5 !important;
+}
 
 /* Search box autocomplete selection */
 #ac-list .selected {
-  background-color: #a4c9f3 !important; }
+  background-color: #a4c9f3 !important;
+}
 
 /* Search results header */
 .results th, .results_lite th {
-  background-color: #a4c9f3 !important; }
+  background-color: #a4c9f3 !important;
+}
 
 /* Page links */
 a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
-  color: #4678c2 !important; }
+  color: #4678c2 !important;
+}
 
 /* Issue title */
 #issueheader td, td.issueheader, .issuemetaheader,
 .tip {
-  background: #a4c9f3 !important; }
+  background: #a4c9f3 !important;
+}
 
 /* Issue title for closed bugs */
 .closed_colors #issueheader td,
 .closed_colors td.issueheader,
 .closed_colors .issuemetaheader {
   background: #e2e2e1 !important;
-  color: black !important; }
+  color: black !important;
+}
 
 /* Status updates for closed bugs */
 .closed_colors .updates, .closed_colors td.issueheader a {
-  background: #e2e2e1 !important; }
+  background: #e2e2e1 !important;
+}
 
 /* Sidebar */
 #issuemeta {
@@ -173,27 +201,33 @@ a:link:not(.buttonify), a:focus:not(.buttonify), a:visited:not(.buttonify) {
   border-right: 3px solid #a4c9f3 !important;
   border-bottom: 3px solid #a4c9f3 !important;
   border-top: 0px !important;
-  background-color: #f6f6f5 !important; }
+  background-color: #f6f6f5 !important;
+}
 
 /* Comment area header */
 .issuecomment {
-  border-top: 3px solid #a4c9f3 !important; }
+  border-top: 3px solid #a4c9f3 !important;
+}
 
 /* Comment header */
 .issuecommentheader {
-  background-color: white !important; }
+  background-color: white !important;
+}
 
 /* Status updates in comments */
 .updates {
   background: #f6f6f5 !important;
   border-radius: 5px !important;
-  padding: 3px !important; }
+  padding: 3px !important;
+}
 
 /* Add a comment header */
 div.h4 {
   background-color: #a4c9f3 !important;
-  border-top: 1px solid #5a8cd6 !important; }
+  border-top: 1px solid #5a8cd6 !important;
+}
 
 /* Issue list header */
 .list {
-  background-color: #f6f6f5 !important; }
+  background-color: #f6f6f5 !important;
+}

@@ -1,14 +1,14 @@
 #!/bin/sh
 
 echo Converting codesearch...
-echo `sass codesearch.scss ../chromium-dev-refresh/codesearch.css --sourcemap=none`
+echo `/Users/creis/code/sass/sass codesearch.scss ../chromium-dev-refresh/codesearch.css --no-source-map`
 echo Converting crbug...
-echo `sass crbug.scss ../chromium-dev-refresh/crbug.css --sourcemap=none`
+echo `/Users/creis/code/sass/sass crbug.scss ../chromium-dev-refresh/crbug.css --no-source-map`
 echo Converting codereview...
-echo `sass codereview.scss ../chromium-dev-refresh/codereview.css --sourcemap=none`
+echo `/Users/creis/code/sass/sass codereview.scss ../chromium-dev-refresh/codereview.css --no-source-map`
 echo Converting polygerrit...
-echo `sass polygerrit.scss ../chromium-dev-refresh/polygerrit.css --sourcemap=none`
+echo `/Users/creis/code/sass/sass polygerrit.scss ../chromium-dev-refresh/polygerrit.css --no-source-map`
 echo Converting gitblame...
-echo `sass gitblame.scss ../chromium-dev-refresh/gitblame.css --sourcemap=none`
+echo `/Users/creis/code/sass/sass gitblame.scss ../chromium-dev-refresh/gitblame.css --no-source-map`
 
 echo Done.

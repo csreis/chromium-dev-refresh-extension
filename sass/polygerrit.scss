@@ -71,8 +71,8 @@ body {
 
 /* Colors ----- */
 
-/* Header */ body > .gr-app-1 gr-main-header.gr-app,
-/* Header links */ .gr-app-1 gr-main-header.gr-app a,
+/* Header */ .gr-app-element-1 gr-main-header.gr-app-element,
+/* Header links */ .gr-app-element-1 gr-main-header.gr-app-element a,
 /* Header menus */ .linksTitle.style-scope.gr-main-header {
   background: $darkBlue !important;
   width: 100% !important;

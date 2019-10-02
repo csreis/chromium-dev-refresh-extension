@@ -5,12 +5,14 @@
 /* Default fonts */
 body, input, textarea,
 .goog-button-base, .gr-button-0 {
-  font-family: "Roboto", "Gill Sans", "Sans Serif" !important; }
+  font-family: "Roboto", "Gill Sans", "Sans Serif" !important;
+}
 
 /* Monospaced fonts */
 pre, xmp, plaintext, listing {
   font-family: "Ubuntu Mono", "Monaco" !important;
-  font-size: 10pt !important; }
+  font-size: 10pt !important;
+}
 
 /* Buttons */
 /* Submit buttons */
@@ -20,17 +22,20 @@ select {
   border: 1px solid #cacaca !important;
   border-radius: 0px !important;
   font-size: 9pt !important;
-  margin: 1px !important; }
+  margin: 1px !important;
+}
 
 /* Submit buttons (hover) */
 input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover,
 select:hover {
-  background: white !important; }
+  background: white !important;
+}
 
 /* Submit buttons (focus) */
 input[type=submit]:focus, input[type=reset]:focus, input[type=button]:focus,
 select:focus {
-  background: #e2e2e1 !important; }
+  background: #e2e2e1 !important;
+}
 
 /* Fonts ----- */
 /* CL Description */
@@ -42,14 +47,16 @@ textarea#id_message,
 #revert-reason-popup-div textarea,
 #reviewmsgdlg textarea {
   font-family: "Ubuntu Mono", "Monaco" !important;
-  font-size: 10pt !important; }
+  font-size: 10pt !important;
+}
 
 /* CL description edit box */
 textarea#id_description {
   font-family: "Ubuntu Mono", "Monaco" !important;
   font-size: 10pt !important;
   /* ~= cols=80 */
-  width: 560px !important; }
+  width: 560px !important;
+}
 
 /* Code review area */
 .olddark, .newdark, .oldreplace, .olddelete, .oldinsert, .oldequal, .oldblank,
@@ -59,11 +66,13 @@ textarea#id_description {
 .newmove, .newchangemove,
 .udiffadd, .udiffremove, .udiff, .debug-info {
   font-family: "Ubuntu Mono", "Monaco" !important;
-  font-size: 10pt !important; }
+  font-size: 10pt !important;
+}
 
 /* Layout ----- */
 body {
-  margin: 0px; }
+  margin: 0px;
+}
 
 /* Menu at top (except search) */
 .mainmenu a:nth-child(1),
@@ -78,7 +87,8 @@ div.extra,
 body > div:nth-child(11),
 body > div:nth-child(8) > p,
 body > div:nth-child(10) {
-  display: none !important; }
+  display: none !important;
+}
 
 /* Search link */
 .mainmenu a:nth-child(2) {
@@ -90,18 +100,21 @@ body > div:nth-child(10) {
   top: 5px !important;
   left: 5px !important;
   margin: 0px !important;
-  padding: 0px !important; }
+  padding: 0px !important;
+}
 
 /* Search link (hover) */
 .mainmenu a:nth-child(2):hover {
-  text-decoration: underline !important; }
+  text-decoration: underline !important;
+}
 
 /* Search link text */
 .mainmenu,
 .mainmenu2 {
   height: 0px !important;
   margin: 0px !important;
-  font-size: 0px !important; }
+  font-size: 0px !important;
+}
 
 /* My Issues link */
 body > div.mainmenu2 > a:nth-child(1) {
@@ -109,41 +122,50 @@ body > div.mainmenu2 > a:nth-child(1) {
   position: absolute !important;
   font-size: 10pt !important;
   top: 5px !important;
-  left: 60px !important; }
+  left: 60px !important;
+}
 
 /* Issues link decoration */
 body > div.mainmenu2 > a:not(:hover) {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+}
 
 /* Sign-in link text */
 body > div:nth-child(3) {
   float: right !important;
-  font-size: 0pt !important; }
+  font-size: 0pt !important;
+}
 
 /* Sign-in link */
 body > div:nth-child(3) b, body > div:nth-child(3) a {
-  font-size: 10pt !important; }
+  font-size: 10pt !important;
+}
 
 /* Sign-in link decoration */
 body > div:nth-child(3) a:not(:hover) {
-  text-decoration: none !important; }
+  text-decoration: none !important;
+}
 
 /* Issue title within review */
 body > div:nth-child(8) > div:nth-of-type(1) {
-  width: 100% !important; }
+  width: 100% !important;
+}
 
 /* Issue header on issue list */
 body > div:nth-child(8) > h2 {
   display: block !important;
-  padding-bottom: 1px !important; }
+  padding-bottom: 1px !important;
+}
 
 /* Delete drafts form */
-body > div:nth-child(8) > table > tbody > tr > td:nth-child(2) > form[action$="delete_drafts"] {
-  text-align: right !important; }
+body > div:nth-child(8) > table > tbody > tr > td:nth-child(2) > form[action$=delete_drafts] {
+  text-align: right !important;
+}
 
 /* Delete drafts button */
-body > div:nth-child(8) > table > tbody > tr > td:nth-child(2) > form[action$="delete_drafts"] > button {
-  text-transform: uppercase !important; }
+body > div:nth-child(8) > table > tbody > tr > td:nth-child(2) > form[action$=delete_drafts] > button {
+  text-transform: uppercase !important;
+}
 
 /* Colors ----- */
 /* Header */
@@ -153,7 +175,8 @@ body > div:nth-child(3) a {
   width: 100% !important;
   margin: 0px !important;
   padding: 5px !important;
-  color: white !important; }
+  color: white !important;
+}
 
 /* Issue title */
 h2 {
@@ -161,31 +184,37 @@ h2 {
   width: 100% !important;
   margin: 0px !important;
   padding: 7px !important;
-  font-size: 14pt !important; }
+  font-size: 14pt !important;
+}
 
 /* Sidebar table border */
 .issue-details {
-  border-spacing: 0px !important; }
+  border-spacing: 0px !important;
+}
 
 /* Sidebar */
 .issue-details .meta {
   background-color: #f6f6f5 !important;
   border-right: 2px solid #a4c9f3 !important;
-  border-bottom: 2px solid #a4c9f3 !important; }
+  border-bottom: 2px solid #a4c9f3 !important;
+}
 
 /* Publish header */
 .issue-details h2,
 .description,
 #reviewmsgdlg {
-  background-color: #f6f6f5 !important; }
+  background-color: #f6f6f5 !important;
+}
 
 /* List of issues */
 .issue-list {
   background-color: #f6f6f5 !important;
   border: 1px solid #a4c9f3 !important;
-  -webkit-border-radius: 0px !important; }
+  -webkit-border-radius: 0px !important;
+}
 
 /* Issue list headers */
 .issue-list .header {
   background-color: #f6f6f5 !important;
-  border: 0px !important; }
+  border: 0px !important;
+}
