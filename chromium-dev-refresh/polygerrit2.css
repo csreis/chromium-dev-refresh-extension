@@ -1,4 +1,10 @@
-/* ---- PolyGerrit Code Review CSS ---- */
+/* ---- PolyGerrit 2 Code Review CSS ---- */
+/*
+TODO:
+The entire CSS framework has changed in PolyGerrit 2.  Classnames are different,
+and they appear to be using new CSS variables to define fonts, etc.  I haven't
+found the places that control fonts or that can make the title image disappear yet.
+*/
 /* Common ----- */
 /* Colors */
 /* Fonts */
@@ -64,7 +70,7 @@ body {
 }
 
 /* Chromium Project logo */
-.bigTitle.style-scope.gr-main-header,
+.bigTitle,
 #mainHeader > nav > ul > li:nth-child(1),
 #mainHeader > nav > ul > li:nth-child(3),
 #mainHeader > nav > ul > li:nth-child(5),
@@ -214,30 +220,10 @@ gr-dropdown[down-arrow] .dropdown-trigger.gr-dropdown {
   background-color: #f9dddd !important;
 }
 
-/* Darker deletion red */
+/* Darker insertion red */
 .gr-diff-1 .content.remove.gr-diff .intraline.gr-diff, .gr-diff-1 .delta.total.gr-diff .content.remove.gr-diff,
 .gr-diff-0 .content.remove.gr-diff .intraline.gr-diff, .gr-diff-0 .delta.total.gr-diff .content.remove.gr-diff {
   background-color: rgba(255, 0, 0, 0.2) !important;
-}
-
-/* Due-to-rebase insertion purple */
-.gr-diff-1 .dueToRebase.gr-diff .content.add.gr-diff {
-  background-color: #eeeeff !important;
-}
-
-/* Due-to-rebase darker insertion purple */
-.gr-diff-1 .dueToRebase.gr-diff .content.add.gr-diff .intraline.gr-diff, .gr-diff-1 .delta.total.dueToRebase.gr-diff .content.add.gr-diff {
-  background-color: #D7D7F9 !important;
-}
-
-/* Due-to-rebase deletion orange */
-.gr-diff-1 .dueToRebase.gr-diff .content.remove.gr-diff {
-  background-color: #ffe1c1 !important;
-}
-
-/* Due-to-rebase darker deletion orange */
-.gr-diff-1 .dueToRebase.gr-diff .content.remove.gr-diff .intraline.gr-diff, .gr-diff-1 .delta.total.dueToRebase.gr-diff .content.remove.gr-diff {
-  background-color: #f9bf82 !important;
 }
 
 /* Comment box */
